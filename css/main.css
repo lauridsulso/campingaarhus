@@ -65,6 +65,10 @@ header {
     background-color: var(--green);
 }
 
+.campingvogn-billede {
+    width: 25%;
+}
+
 .img-col img {
     max-width: 200px;
     margin: 0;
@@ -130,4 +134,76 @@ header {
     to {
         opacity: 1
     }
+}
+
+
+
+
+
+
+
+
+
+/* ---------- footer styling ---------- */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.footer-grid-item-1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.footer-grid-item-2 {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.footer-grid-item-3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+
+.telt-billede {
+    width: 110%;
+}
+
+.kiosk-billede {
+    width: 110%;
+    float: right;
+}
+
+.footer-grid-item-2>p {
+    text-align: center;
+}
+
+.bold-tekst-footer {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.some-img {
+    display: flex;
+}
+
+.some-img>div {
+    text-align: center;
+}
+
+.some-img>div>img {
+    width: 50%;
+}
+
+.facebook-billede>img {
+    float: right;
+    padding-right: 3%;
+}
+
+.instagram-billede>img {
+    float: left;
+    padding-left: 3%;
+
 }
