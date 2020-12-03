@@ -171,6 +171,23 @@ header {
 #forsidescorekort {
     text-transform: uppercase;
     width: 45vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#forsidepriser {
+    margin-bottom: 20px;
+}
+
+#forsidetider {
+    margin-bottom: 20px;
+}
+
+#forsidebanekort {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /* ---------- animations ---------- */
