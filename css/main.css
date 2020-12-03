@@ -206,7 +206,7 @@ header {
 }
 
 
-/* ---------- menukort styling ---------- */
+/* ---------- menukort styling (pernille) ---------- */
 
 #menukort-billede {
     width: 80%;
@@ -222,7 +222,7 @@ header {
 }
 
 
-/* ---------- footer styling ---------- */
+/* ---------- footer styling (pernille) ---------- */
 
 
 .footer-grid {
@@ -250,6 +250,8 @@ header {
 
 .footer-grid-item-4 {
     grid-area: 2 / 3 / 3 / 4;
+
+
 }
 
 
@@ -261,6 +263,7 @@ header {
 .kiosk-billede {
     width: 115%;
     float: right;
+
 }
 
 .footer-grid-item-2>p {
