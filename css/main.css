@@ -18,13 +18,42 @@ body {
     margin: 0;
     background-color: #97C567;
     font-family: sofia-pro, sans-serif;
-    ;
 }
 
 h1 {
     font-size: 2em;
     font-weight: 300;
     letter-spacing: 3px;
+}
+
+h2 {
+    margin-left: 10vw;
+    font-size: 9vw;
+    color: black;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 35vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
+}
+
+.tekst {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 7.5vw;
+    color: black;
+    font-size: 4.25vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* ---------- se hvilken font-weight de forskellige typer skal have:
@@ -35,8 +64,6 @@ font-style: normal;
 BOLD
 font-weight: 700;
 font-style: normal;
-
-
 REGULAR
 font-weight: 400;
 font-style: normal;
@@ -65,6 +92,10 @@ font-style: normal;
 /* ---------- header styling ---------- */
 header {
     background-color: var(--green);
+}
+
+.campingvogn-billede {
+    width: 25%;
 }
 
 .img-col img {
@@ -115,11 +146,50 @@ header {
     animation: fadeIn 0.4s;
 }
 
-/* ---------- logo styling ---------- */
-.logo {
-    margin: 2em auto;
+.links {
+    text-decoration: underline;
+    font-weight: 700;
+    color: black;
+}
+
+
+/* ---------- forside MAJA ---------- */
+#forsidelogo {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#centertekst {
+    text-align: center;
+}
+
+#forsidestemningsbilleder {
     width: 100%;
-    max-width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#forsidescorekort {
+    text-transform: uppercase;
+    width: 45vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#forsidepriser {
+    margin-bottom: 20px;
+}
+
+#forsidetider {
+    margin-bottom: 20px;
+}
+
+#forsidebanekort {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /* ---------- animations ---------- */
@@ -307,4 +377,115 @@ background-color: none;
     box-shadow: 3px 3px;
     border: 2px outset black;
     padding: 10px 6px;
+/*BESTILLING SIDE START---------*/
+
+#sultenefterburger {
+    margin-top: 5vw;
+}
+
+#bestilknapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+
+}
+
+
+#bestiltekst {
+    margin-bottom: 20vw;
+}
+
+
+/* ---------- menukort styling (pernille) ---------- */
+
+#menukort-billede {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3%;
+}
+
+#drikkekort-billede {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* ---------- footer styling (pernille) ---------- */
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+
+}
+
+.footer-grid-item-1 {
+    grid-area: 2 / 1 / 3 / 2;
+    align-self: end;
+}
+
+.footer-grid-item-2 {
+    grid-area: 1 / 1 / 2 / 4;
+    margin-top: 5%;
+
+}
+
+.footer-grid-item-3 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-top: 6%;
+}
+
+.footer-grid-item-4 {
+    grid-area: 2 / 3 / 3 / 4;
+    align-self: end;
+}
+
+
+.telt-billede {
+    width: 115%;
+}
+
+.kiosk-billede {
+    width: 115%;
+    float: right;
+
+}
+
+.footer-grid-item-2>p {
+    text-align: center;
+}
+
+.bold-tekst-footer {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-grid-item-3 {
+    display: flex;
+}
+
+.footer-grid-item-3>div {
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-grid-item-3>div>a>img {
+    width: 60%;
+}
+
+.facebook-billede>a>img {
+    margin-right: 8%;
+    float: right;
+}
+
+.instagram-billede>a>img {
+    margin-left: 8%;
+    float: left;
 }
