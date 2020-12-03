@@ -150,6 +150,11 @@ header {
     text-align: center;
 }
 
+#forsidestemningsbilleder {
+    width: 140%;
+    margin-top: 30px;
+}
+
 /* ---------- animations ---------- */
 /* fade in */
 @keyframes fadeIn {
