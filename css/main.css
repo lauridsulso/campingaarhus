@@ -249,10 +249,12 @@ header {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
+
 }
 
 .footer-grid-item-1 {
     grid-area: 2 / 1 / 3 / 2;
+    align-self: end;
 }
 
 .footer-grid-item-2 {
@@ -268,19 +270,18 @@ header {
 
 .footer-grid-item-4 {
     grid-area: 2 / 3 / 3 / 4;
-
-
+    align-self: end;
 }
 
 
 .telt-billede {
     width: 115%;
-
 }
 
 .kiosk-billede {
     width: 115%;
     float: right;
+
 }
 
 .footer-grid-item-2>p {
