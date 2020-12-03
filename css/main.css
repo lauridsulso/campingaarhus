@@ -151,7 +151,7 @@ header {
 }
 
 
-/* ---------- logo styling ---------- */
+/* ---------- forside MAJA ---------- */
 #forsidelogo {
     width: 50%;
     margin: 0 auto;
@@ -160,6 +160,34 @@ header {
 
 #centertekst {
     text-align: center;
+}
+
+#forsidestemningsbilleder {
+    width: 140%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#forsidescorekort {
+    text-transform: uppercase;
+    width: 45vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#forsidepriser {
+    margin-bottom: 20px;
+}
+
+#forsidetider {
+    margin-bottom: 20px;
+}
+
+#forsidebanekort {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /* ---------- animations ---------- */
