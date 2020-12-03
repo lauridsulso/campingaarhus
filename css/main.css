@@ -18,7 +18,6 @@ body {
     margin: 0;
     background-color: #97C567;
     font-family: sofia-pro, sans-serif;
-    ;
 }
 
 h1 {
@@ -27,14 +26,14 @@ h1 {
     letter-spacing: 3px;
 }
 
-h2{
+h2 {
     margin-left: 7.5vw;
     font-size: 9vw;
     color: black;
     font-weight: 800;
 }
 
-.tekst{
+.tekst {
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     line-height: 6.5vw;
@@ -50,8 +49,6 @@ font-style: normal;
 BOLD
 font-weight: 700;
 font-style: normal;
-
-
 REGULAR
 font-weight: 400;
 font-style: normal;
@@ -154,7 +151,7 @@ header {
 
 /*BESTILLING SIDE START---------*/
 
-#bestilknapper{
+#bestilknapper {
     display: flex;
     justify-content: space-around;
 
@@ -189,6 +186,7 @@ border: 2.5px outset black;
 
 /* ---------- footer styling ---------- */
 
+
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -202,20 +200,28 @@ border: 2.5px outset black;
 }
 
 .footer-grid-item-2 {
-    grid-area: 1 / 2 / 3 / 3;
+    grid-area: 1 / 1 / 2 / 4;
+    margin-top: 5%;
+
 }
 
 .footer-grid-item-3 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-top: 6%;
+}
+
+.footer-grid-item-4 {
     grid-area: 2 / 3 / 3 / 4;
 }
 
 
 .telt-billede {
-    width: 110%;
+    width: 115%;
+
 }
 
 .kiosk-billede {
-    width: 110%;
+    width: 115%;
     float: right;
 }
 
@@ -228,25 +234,25 @@ border: 2.5px outset black;
     font-size: 20px;
 }
 
-.some-img {
+.footer-grid-item-3 {
     display: flex;
 }
 
-.some-img>div {
+.footer-grid-item-3>div {
     text-align: center;
+    justify-content: center;
 }
 
-.some-img>div>img {
-    width: 50%;
+.footer-grid-item-3>div>a>img {
+    width: 60%;
 }
 
-.facebook-billede>img {
+.facebook-billede>a>img {
+    margin-right: 8%;
     float: right;
-    padding-right: 3%;
 }
 
-.instagram-billede>img {
+.instagram-billede>a>img {
+    margin-left: 8%;
     float: left;
-    padding-left: 3%;
-
 }
