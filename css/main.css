@@ -10,15 +10,15 @@
 /* ---------- general styling ---------- */
 html {
     color: var(--text-color-dark);
-    font-family: Helvetica, Arial, sans-serif;
     height: 100%;
-    text-align: center;
     width: 100%;
-    font-weight: 200;
 }
 
 body {
     margin: 0;
+    background-color: #97C567;
+    font-family: sofia-pro, sans-serif;
+    ;
 }
 
 h1 {
@@ -26,6 +26,21 @@ h1 {
     font-weight: 300;
     letter-spacing: 3px;
 }
+
+/* ---------- fonts
+BLACK
+font-weight: 900;
+font-style: normal;
+
+BOLD
+font-weight: 700;
+font-style: normal;
+
+
+REGULAR
+font-weight: 400;
+font-style: normal;
+---------- */
 
 /* ---------- Grid container ---------- */
 .grid-container {
