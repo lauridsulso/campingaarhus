@@ -35,6 +35,17 @@ h2 {
     margin-bottom: 0;
 }
 
+button {
+    border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 35vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
+}
+
 .tekst {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -136,10 +147,11 @@ header {
 .links {
     text-decoration: underline;
     font-weight: 700;
+    color: black;
 }
 
 
-/* ---------- logo styling ---------- */
+/* ---------- forside MAJA ---------- */
 #forsidelogo {
     width: 50%;
     margin: 0 auto;
@@ -148,6 +160,34 @@ header {
 
 #centertekst {
     text-align: center;
+}
+
+#forsidestemningsbilleder {
+    width: 140%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#forsidescorekort {
+    text-transform: uppercase;
+    width: 45vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#forsidepriser {
+    margin-bottom: 20px;
+}
+
+#forsidetider {
+    margin-bottom: 20px;
+}
+
+#forsidebanekort {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /* ---------- animations ---------- */
@@ -178,32 +218,11 @@ header {
 
 }
 
-#bestilbord {
-    border: 2.5px outset black;
-    background-color: white;
-    height: 10vw;
-    width: 35vw;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 800;
-    font-size: 4.75vw;
-    box-shadow: 2.5px 2.5px;
-
-}
-
-#takeaway {
-    border: 2.5px outset black;
-    background-color: white;
-    height: 10vw;
-    width: 35vw;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 800;
-    font-size: 4.75vw;
-    box-shadow: 2.5px 2.5px;
-}
 
 #bestiltekst {
     margin-bottom: 20vw;
 }
+
 
 
 /* ---------- menukort styling (pernille) ---------- */
@@ -215,13 +234,6 @@ header {
     margin-top: 3%;
 }
 
-#drikkekort-billede {
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-}
-
-
 /* ---------- footer styling (pernille) ---------- */
 
 
@@ -231,6 +243,7 @@ header {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+
 }
 
 .footer-grid-item-1 {
@@ -263,7 +276,6 @@ header {
 .kiosk-billede {
     width: 115%;
     float: right;
-
 }
 
 .footer-grid-item-2>p {
