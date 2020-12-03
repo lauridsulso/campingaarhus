@@ -159,7 +159,7 @@ header {
 
 /*BESTILLING SIDE START---------*/
 
-#sultenefterburger{
+#sultenefterburger {
     margin-top: 5vw;
 }
 
@@ -172,34 +172,48 @@ header {
 
 }
 
-#bestilbord{
-border: 2.5px outset black;
-   background-color: white;
-   height:10vw;
-   width:35vw;
-   font-family: sofia-pro, sans-serif;
-   font-weight: 800;
-   font-size: 4.75vw;
-   box-shadow: 2.5px 2.5px;
+#bestilbord {
+    border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 35vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
 
 }
-#takeaway{
-   border: 2.5px outset black;
-   background-color: white;
-   height:10vw;
-   width:35vw;
-   font-family: sofia-pro, sans-serif;
-   font-weight: 800;
-   font-size: 4.75vw;
-   box-shadow: 2.5px 2.5px;
+
+#takeaway {
+    border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 35vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
 }
 
-#bestiltekst{
+#bestiltekst {
     margin-bottom: 20vw;
 }
 
 
+/* ---------- menukort styling ---------- */
 
+#menukort-billede {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3%;
+}
+
+#drikkekort-billede {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
 
 
 /* ---------- footer styling ---------- */
