@@ -27,17 +27,22 @@ h1 {
 }
 
 h2 {
-    margin-left: 7.5vw;
+    margin-left: 10vw;
     font-size: 9vw;
     color: black;
     font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .tekst {
-    margin-left: 7.5vw;
-    margin-right: 7.5vw;
-    line-height: 6vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 7.5vw;
     color: black;
+    font-size: 4.25vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* ---------- se hvilken font-weight de forskellige typer skal have:
@@ -129,10 +134,14 @@ header {
 }
 
 /* ---------- logo styling ---------- */
-.logo {
-    margin: 2em auto;
-    width: 100%;
-    max-width: 150px;
+#forsidelogo {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#centertekst {
+    text-align: center;
 }
 
 /* ---------- animations ---------- */
@@ -150,35 +159,44 @@ header {
 
 /*BESTILLING SIDE START---------*/
 
+#sultenefterburger{
+    margin-top: 5vw;
+}
+
 #bestilknapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
 
 }
 
-#bestilbord {
-    border: 2px outset black;
-    background-color: white;
-    height: 10vw;
-    width: 35vw;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 700;
-    font-size: 4.5vw;
-    box-shadow: 2.5px 2.5px;
+#bestilbord{
+border: 2.5px outset black;
+   background-color: white;
+   height:10vw;
+   width:35vw;
+   font-family: sofia-pro, sans-serif;
+   font-weight: 800;
+   font-size: 4.75vw;
+   box-shadow: 2.5px 2.5px;
 
 }
-
-#takeaway {
-    border: 2px outset black;
-    background-color: white;
-    height: 10vw;
-    width: 35vw;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 700;
-    font-size: 4.5vw;
-    box-shadow: 2.5px 2.5px;
+#takeaway{
+   border: 2.5px outset black;
+   background-color: white;
+   height:10vw;
+   width:35vw;
+   font-family: sofia-pro, sans-serif;
+   font-weight: 800;
+   font-size: 4.75vw;
+   box-shadow: 2.5px 2.5px;
 }
 
+#bestiltekst{
+    margin-bottom: 20vw;
+}
 
 
 
