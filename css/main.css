@@ -224,7 +224,6 @@ header {
 }
 
 
-
 /* ---------- menukort styling (pernille) ---------- */
 
 #menukort-billede {
@@ -232,6 +231,12 @@ header {
     margin: 0 auto;
     display: block;
     margin-top: 3%;
+}
+
+#drikkekort-billede {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 
 /* ---------- footer styling (pernille) ---------- */
