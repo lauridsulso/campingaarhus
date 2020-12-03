@@ -129,6 +129,12 @@ header {
     animation: fadeIn 0.4s;
 }
 
+.links {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
 /* ---------- logo styling ---------- */
 #forsidelogo {
     width: 50%;
