@@ -132,10 +132,14 @@ header {
 }
 
 /* ---------- logo styling ---------- */
-.logo {
-    margin: 2em auto;
-    width: 100%;
-    max-width: 150px;
+#forsidelogo {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#centertekst {
+    text-align: center;
 }
 
 /* ---------- animations ---------- */
