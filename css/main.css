@@ -18,7 +18,6 @@ body {
     margin: 0;
     background-color: #97C567;
     font-family: sofia-pro, sans-serif;
-    ;
 }
 
 h1 {
@@ -35,8 +34,6 @@ font-style: normal;
 BOLD
 font-weight: 700;
 font-style: normal;
-
-
 REGULAR
 font-weight: 400;
 font-style: normal;
@@ -159,20 +156,27 @@ header {
 }
 
 .footer-grid-item-2 {
-    grid-area: 1 / 2 / 3 / 3;
+    grid-area: 1 / 1 / 2 / 4;
+    margin-top: 5%;
+
 }
 
 .footer-grid-item-3 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-top: 6%;
+}
+
+.footer-grid-item-4 {
     grid-area: 2 / 3 / 3 / 4;
 }
 
 
 .telt-billede {
-    width: 110%;
+    width: 115%;
 }
 
 .kiosk-billede {
-    width: 110%;
+    width: 115%;
     float: right;
 }
 
@@ -185,25 +189,25 @@ header {
     font-size: 20px;
 }
 
-.some-img {
+.footer-grid-item-3 {
     display: flex;
 }
 
-.some-img>div {
+.footer-grid-item-3>div {
     text-align: center;
+    justify-content: center;
 }
 
-.some-img>div>img {
-    width: 50%;
+.footer-grid-item-3>div>a>img {
+    width: 60%;
 }
 
-.facebook-billede>img {
+.facebook-billede>a>img {
+    margin-right: 8%;
     float: right;
-    padding-right: 3%;
 }
 
-.instagram-billede>img {
+.instagram-billede>a>img {
+    margin-left: 8%;
     float: left;
-    padding-left: 3%;
-
 }
