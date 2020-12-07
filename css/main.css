@@ -215,7 +215,6 @@ a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
-    line-height: 2;
     font-weight: 700;
 }
 
@@ -412,13 +411,15 @@ div.burger {
 /*onboarding*/
 .golfben {
     width: 100%;
+    position: relative;
+    top: -27vw;
 }
 
 .golfben2 {
     width: 100%;
     position: relative;
-    top: -6vw;
-    left: 3vw;
+    top: -33vw;
+    left: 4vw;
 }
 
 #onboardtekst {
@@ -462,6 +463,8 @@ margin-bottom: 7.5vw;
     width: 5vw;
     box-shadow: 2.5px 2.5px;
     margin-left: 10px;
+    
+    
 }
 
 .skipknap2 {

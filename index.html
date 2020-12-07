@@ -17,48 +17,48 @@
 <body onhashchange="pageChange()">
   <header>
     <img src="img/campingvogn.png" alt="campingvogn" class="campingvogn-billede">
-<nav role='navigation'>
-  <div id="menuToggle">
-    <!--
+    <nav role='navigation'>
+      <div id="menuToggle">
+        <!--
     A fake / hidden checkbox is used as click reciever,
     so you can use the :checked selector on it.
     -->
-    <input type="checkbox" />
+        <input type="checkbox" />
 
-    <!--
+        <!--
     Some spans to act as a hamburger.
     
     They are acting like a real hamburger,
     not that McDonalds stuff.
     -->
-    <div class="burger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-    <!--
+        <!--
     Too bad the menu has to be inside of the button
     but hey, it's pure CSS magic.
     -->
-    <ul class="hvid_boks" id="menu">
-      <a href="#home" onclick="hidemenu()">
-        <li>forside</li>
-      </a>
-      <a href="#menukort" onclick="hidemenu()">
-        <li>menukort</li>
-      </a>
-      <a href="#bestilling" onclick="hidemenu()">
-        <li>bestilling</li>
-      </a>
-      <a href="#">
-        <li></li>
-      </a>
-    </ul>
-  </div>
-</nav>
+        <ul class="hvid_boks" id="menu">
+          <a href="#home" onclick="hidemenu()">
+            <li>forside</li>
+          </a>
+          <a href="#menukort" onclick="hidemenu()">
+            <li>menukort</li>
+          </a>
+          <a href="#bestilling" onclick="hidemenu()">
+            <li>bestilling</li>
+          </a>
+          <a href="#">
+            <li></li>
+          </a>
+        </ul>
+      </div>
+    </nav>
 
-</header>
+  </header>
 
   <!-- tabbar navigation -->
   <!--
@@ -120,17 +120,21 @@
       <button id="barmenu-knap" onclick="madMenu()"><span>BAR MENU</span></button>
     </div>
 
-    <div id="menuKort"> <h2>mad menu</h2>
-        <p class="tekst">køkkenet er åbent fra 16-21</p>
-    <img src="img/menukort.png" alt="menukort" id="menukort-billede"></div>
+    <div id="menuKort">
+      <h2>mad menu</h2>
+      <p class="tekst">køkkenet er åbent fra 16-21</p>
+      <img src="img/menukort.png" alt="menukort" id="menukort-billede">
+    </div>
 
-        <div id="forsvind"><div id="barMenu">
-              <h2> bar menu</h2> <br>
+    <div id="forsvind">
+      <div id="barMenu">
+        <h2> bar menu</h2> <br>
         <img src="img/drikkekort.png" alt="drikkekort" id="drikkekort-billede">
-        </div></div><br>
-       
-        
- 
+      </div>
+    </div><br>
+
+
+
   </section>
 
   <!-- bestillings side -->
@@ -210,13 +214,13 @@
 
   <!-- antal spillere (TINE)-->
   <section id="antalspillere" class="page">
-   
+
     <h2 class="antal">vælg antal spillere</h2><br>
 
-   <input class="button_antal" type="text" placeholder="antal spillere">
+    <input class="button_antal" type="text" placeholder="antal spillere">
 
-   <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
-   
+    <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
+
     <a href="#antalspillere"><button class="onboardknap">Næste</button></a>
 
   </section>
