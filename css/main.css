@@ -410,8 +410,18 @@ div.burger {
 
 /*onboarding*/
 .golfben{
+width: 100%;
+}
+
+.golfben2{
+width: 100%;
 position: relative;
-top: 0;
+top: -6vw;
+left: 3vw;
+}
+
+#onboardtekst{
+    margin-bottom: 20vw;
 }
 
 .onboardknap{
