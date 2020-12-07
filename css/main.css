@@ -206,15 +206,12 @@ header {
 
 
 
-/*---------burgermenu--------*/
+/*---------burgermenu TINE--------*/
 body
 {
   margin: 0;
   padding: 0;
-  
-  /* make it look decent enough */
-  
-  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+  overflow-x: hidden; 
 }
 
 a
@@ -247,18 +244,13 @@ a
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
 #menuToggle span
 {
   display: block;
@@ -285,7 +277,7 @@ a
   transform-origin: 0% 100%;
 }
 
-/* 
+/*
  * Transform all the slices of hamburger
  * into a crossmark.
  */
@@ -374,6 +366,8 @@ background-color: none;
     box-shadow: 3px 3px;
     border: 2px outset black;
     padding: 10px 6px;
+
+    
 /*BESTILLING SIDE START---------*/
 }
 #sultenefterburger {
