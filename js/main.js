@@ -14,6 +14,9 @@ document.getElementById('bestilbord').classList.add("activeButton");
 document.getElementById('takeaway').classList.remove("activeButton");
 }
 
+
+
+//navigationsmenuen (tine)
 function hidemenu() {
-    document.querySelector("#menu").classList.add("hidemenu");
+    document.querySelector("#menuButton").checked = false;
 }

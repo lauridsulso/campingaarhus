@@ -22,7 +22,7 @@
     A fake / hidden checkbox is used as click reciever,
     so you can use the :checked selector on it.
     -->
-    <input type="checkbox" />
+    <input type="checkbox" id="menuButton"/>
 
     <!--
     Some spans to act as a hamburger.
@@ -185,7 +185,7 @@
 
   </section>
 
-  <!-- onboarding 1 -->
+  <!-- onboarding 2 -->
   <section id="onboard2" class="page">
     <img class="golfben2" src="img/golfben.png" alt="BILLEDE AF FØDDER MED MINIGOLF HER">
     <h2>hovedregning er so last year</h2>
@@ -200,15 +200,30 @@
   <!-- antal spillere (TINE)-->
   <section id="antalspillere" class="page">
    
-    <h2 class="antal">vælg antal spillere</h2><br>
+    <h2 class="antal">vælg antal spillere</h2><br><br>
 
    <input class="button_antal" type="text" placeholder="antal spillere">
 
    <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
    
-    <a href="#antalspillere"><button class="onboardknap">Næste</button></a>
+    <a href="#indtastjeresnavne"><button class="onboardknap">Næste</button></a>
 
   </section>
+
+
+<!-- antal spillere -->
+<section id="indtastjeresnavne" class="page">
+
+  <h2 class="antal">indtast jeres navne</h2><br><br>
+
+  <input class="button_antal" type="text" placeholder="spiller 1">
+
+  <a href=""><button class="onboardknap">SÆT IGANG</button></a>
+
+</section>
+
+
+
 
   <!-- footer -->
   <footer>
