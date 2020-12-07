@@ -18,6 +18,7 @@ body {
     margin: 0;
     background-color: #97C567;
     font-family: sofia-pro, sans-serif;
+    
 }
 
 h1 {
@@ -315,11 +316,11 @@ a
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -50px 0 0 0;
+  width: 309px;
+  margin: -55px 0 0 0;
   padding: 50px;
   padding-top: 125px;
-  right: -45px;
+  right: -50px;
   text-align: center;
   background: #ededed;
   list-style-type: none;
@@ -358,7 +359,6 @@ background-color: none;
     background-color: white;
     box-shadow: 3px 3px;
     border: 2px outset black;
-    
 }
 
 .burger {
@@ -366,10 +366,15 @@ background-color: none;
     box-shadow: 3px 3px;
     border: 2px outset black;
     padding: 10px 6px;
+}
 
+div.burger {
+     margin-right: -30px;
+     margin-top: -24px;
+}
     
 /*BESTILLING SIDE START---------*/
-}
+
 #sultenefterburger {
     margin-top: 5vw;}
 
@@ -379,9 +384,7 @@ background-color: none;
     margin: 10vw;
     margin-top: 7vw;
     margin-bottom: 7vw;
-
 }
-
 
 #bestiltekst {
     margin-bottom: 20vw;
