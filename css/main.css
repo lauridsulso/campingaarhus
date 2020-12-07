@@ -430,7 +430,33 @@ div.burger {
     margin: auto;
 }
 
-/*antalspillere*/
+/*-------------antalspillere (TINE)-------------*/
+
+.antal {
+    margin-top: 80px;
+}
+
+.button_antal {
+    border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 35vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
+    display: block;
+    margin: auto;
+}
+
+.polse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
 /* ---------- footer styling (pernille) ---------- */
 
