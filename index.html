@@ -29,23 +29,23 @@
     not that McDonalds stuff.
     -->
     <div class="burger">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
     <!--
     Too bad the menu has to be inside of the button
     but hey, it's pure CSS magic.
     -->
     <ul class="hvid_boks" id="menu">
-      <a href="#home">
+      <a href="#home" onclick="hidemenu()">
         <li>forside</li>
       </a>
-      <a href="#menukort">
+      <a href="#menukort" onclick="hidemenu()">
         <li>menukort</li>
       </a>
-      <a href="#bestilling">
+      <a href="#bestilling" onclick="hidemenu()">
         <li>bestilling</li>
       </a>
       <a href="#">
@@ -77,13 +77,16 @@
     </header>
     <img src="/img/logo.png" alt="Camping Aarhus logo" id="forsidelogo">
     <p class="tekst" id="centertekst">Velkommen til 9-hullers indendørs minigolfbane og bar i Aarhus.
-      <br> Du finder os på <a class="links" href="https://goo.gl/maps/zY6UC9gDkV3u73Ns6" target="_blank">Åboulevarden 9</a>.</p>
-      <a href="https://www.instagram.com/campingaarhus/" target="_blank"><img src="/img/stemningsbilleder.JPG" alt="Stemningsbilleder fra Campingbar Aarhus" id="forsidestemningsbilleder"></a>
-    
+      <br> Du finder os på <a class="links" href="https://goo.gl/maps/zY6UC9gDkV3u73Ns6" target="_blank">Åboulevarden
+        9</a>.</p>
+    <a href="https://www.instagram.com/campingaarhus/" target="_blank"><img src="/img/stemningsbilleder.JPG"
+        alt="Stemningsbilleder fra Campingbar Aarhus" id="forsidestemningsbilleder"></a>
+
     <h2>digitalt scorekort</h2>
-    <p class="tekst">Når I besøger os på Aaboulevarden kan i holde styr på jeres score med vores minigolf scorekort på telefonen.
+    <p class="tekst">Når I besøger os på Aaboulevarden kan i holde styr på jeres score med vores minigolf scorekort på
+      telefonen.
       Er i klar til at spille minigolf?</p>
-    <button class="tekst" id="forsidescorekort">Gå til scorekort</button>
+    <a href="#onboard1"><button class="tekst" id="forsidescorekort">Gå til scorekort</button></a>
 
     <h2>priser</h2>
     <p class="tekst" id="forsidepriser">Minigolf: 50 kr <br>
@@ -95,7 +98,7 @@
       Tir - tor: 15 - 22 <br>
       Fre - lør: 12 - 22 <br>
       Søn: 12 - 20</p>
-      <p class="tekst" id="forsidetider">Arrangementer kan bookes i og uden for åbningstiderne</p>
+    <p class="tekst" id="forsidetider">Arrangementer kan bookes i og uden for åbningstiderne</p>
 
     <h2>banekort</h2>
     <img src="/img/banekort.svg" alt="Banekort" id="forsidebanekort">
@@ -107,7 +110,9 @@
 
     </header>
     <h2>menukort</h2>
-    <p class="tekst">Vi er en bar, og har alt hvad en bar skal have. Burgers fra Cocks & Cows, se menu her. Køkkenet er åbent fredag og lørdag, hvis burgersulten melder sig. Ellers har vi masser af snacks at byde på resten af ugen.</p>
+    <p class="tekst">Vi er en bar, og har alt hvad en bar skal have. Burgers fra Cocks & Cows, se menu her. Køkkenet er
+      åbent fredag og lørdag, hvis burgersulten melder sig. Ellers har vi masser af snacks at byde på resten af ugen.
+    </p>
     <div id="bestilknapper">
       <button id="bestilbord" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
       <button id="takeaway" onclick="madMenu()"><span>BAR MENU</span></button>
@@ -145,7 +150,8 @@
       <br> <br>
       Ønsker du at komme forbi med en større gruppe og eventuelt leje stedet til fødselsdag, teambuilding, firmafest
       eller
-      lukkede arrangementer, så kan du skrive os en <b><u>email</b></u> - så finder vi en løsning, der passer til
+      lukkede arrangementer, så kan du skrive os en <a class="links" href="mailto:minigolf@camping.dk">email</a></b></u>
+      - så finder vi en løsning, der passer til
       jeres behov.
     </p>
 
@@ -161,6 +167,44 @@
     <a href="http://cederdorff.com" target="_blank">
       <img src="img/logo.png" alt="Cederdorff logo" class="logo">
     </a>
+  </section>
+
+
+  <!-- scorekort -->
+
+  <!-- onboarding 1 -->
+  <section id="onboard1" class="page">
+    <img class="golfben" src="img/ben.png" alt="BILLEDE AF FØDDER MED MINIGOLF HER">
+    <h2>velkommen til scorekortet</h2>
+    <p id="onboardtekst" class="tekst">Her indtaster du spillernes point og kan løbende se hvem der ligger i toppen - og
+      hvem der skal
+      give en omgang i baren.
+    </p>
+    <a href="#onboard2"><button class="onboardknap">Næste</button></a>
+
+  </section>
+
+  <!-- onboarding 1 -->
+  <section id="onboard2" class="page">
+    <img class="golfben2" src="img/golfben.png" alt="BILLEDE AF FØDDER MED MINIGOLF HER">
+    <h2>hovedregning er so last year</h2>
+    <p id="onboardtekst" class="tekst">Er du også træt af at lægge jeres point sammen i hovedet? Når du bruger vores
+      digitale scorekort, lægger vi pointene
+      sammen for dig.
+    </p>
+    <a href="#antalspillere"><button class="onboardknap">Næste</button></a>
+
+  </section>
+
+  <!-- antal spillere -->
+  <section id="antalspillere" class="page">
+    <img class="golfben" src="" alt="BILLEDE AF FØDDER MED MINIGOLF HER">
+    <h2>velkommen til scorekortet</h2>
+    <p class="tekst">Her indtaster du spillernes point og kan løbende se hvem der ligger i toppen - og hvem der skal
+      give en omgang i baren.
+    </p>
+    <a href="#antalspillere"><button class="onboardknap">Næste</button></a>
+
   </section>
 
   <!-- footer -->

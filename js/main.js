@@ -14,3 +14,6 @@ document.getElementById('bestilbord').classList.add("activeButton");
 document.getElementById('takeaway').classList.remove("activeButton");
 }
 
+function hidemenu() {
+    document.querySelector("#menu").classList.add("hidemenu");
+}
