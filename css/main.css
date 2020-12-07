@@ -411,15 +411,18 @@ div.burger {
 /*onboarding*/
 .golfben {
     width: 100%;
-    position: relative;
-    top: -27vw;
+    position: absolute;
+    top: 0;
 }
 
 .golfben2 {
     width: 100%;
-    position: relative;
-    top: -33vw;
-    left: 4vw;
+    position: absolute;
+    top: -25px;
+}
+
+.onboardh2{
+    margin-top: 30vw;
 }
 
 #onboardtekst {
