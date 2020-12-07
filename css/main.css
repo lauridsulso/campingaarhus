@@ -223,10 +223,7 @@ a
   font-weight: 700;
 }
 
-a:hover
-{
-  color:;
-}
+
 
 #menuToggle
 {
@@ -372,10 +369,9 @@ background-color: none;
 
     
 /*BESTILLING SIDE START---------*/
-
-#sultenefterburger {
-    margin-top: 5vw;
 }
+#sultenefterburger {
+    margin-top: 5vw;}
 
 #bestilknapper {
     display: flex;
