@@ -411,6 +411,31 @@ div.burger {
     display: block;
 }
 
+/*scorekort start*/
+
+/*onboarding*/
+.golfben{
+width: 100%;
+}
+
+.golfben2{
+width: 100%;
+position: relative;
+top: -6vw;
+left: 3vw;
+}
+
+#onboardtekst{
+    margin-bottom: 20vw;
+}
+
+.onboardknap{
+display: block;
+margin: auto;
+}
+
+/*antalspillere*/
+
 /* ---------- footer styling (pernille) ---------- */
 
 
