@@ -497,8 +497,7 @@ div.burger {
 
 .kiosk-billede {
     width: 115%;
-    float: right;
-
+    margin-right: 0;
 }
 
 .footer-grid-item-2>p {
