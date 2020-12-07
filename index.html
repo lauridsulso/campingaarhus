@@ -15,7 +15,8 @@
 
 
 <body onhashchange="pageChange()">
-  
+  <header>
+    <img src="img/campingvogn.png" alt="campingvogn" class="campingvogn-billede">
 <nav role='navigation'>
   <div id="menuToggle">
     <!--
@@ -57,7 +58,7 @@
   </div>
 </nav>
 
-
+</header>
 
   <!-- tabbar navigation -->
   <!--
@@ -105,7 +106,7 @@
     <img src="/img/banekort.svg" alt="Banekort" id="forsidebanekort">
   </section>
 
-  <!-- menukort side -->
+  <!-- menukort side (Pernille) -->
   <section id="menukort" class="page">
     <header class="topbar">
 
@@ -115,8 +116,8 @@
       åbent fredag og lørdag, hvis burgersulten melder sig. Ellers har vi masser af snacks at byde på resten af ugen.
     </p>
     <div id="bestilknapper">
-      <button id="bestilbord" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
-      <button id="takeaway" onclick="madMenu()"><span>BAR MENU</span></button>
+      <button id="madmenu-knap" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
+      <button id="barmenu-knap" onclick="madMenu()"><span>BAR MENU</span></button>
     </div>
 
     <div id="menuKort"> <h2>mad menu</h2>
@@ -208,7 +209,7 @@
 
   </section>
 
-  <!-- footer -->
+  <!-- footer (Pernille) -->
   <footer>
 
     <div class="footer-grid">
