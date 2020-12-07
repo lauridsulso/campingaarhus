@@ -45,6 +45,7 @@ button {
     font-weight: 800;
     font-size: 4.75vw;
     box-shadow: 2.5px 2.5px;
+    outline: none;
 }
 
 .tekst {
@@ -89,12 +90,10 @@ font-style: normal;
 }
 
 /* ---------- header styling ---------- */
-header {
-    background-color: var(--green);
-}
+
 
 .campingvogn-billede {
-    width: 25%;
+    width: 30%;
 }
 
 .img-col img {
@@ -216,7 +215,6 @@ a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
-    line-height: 2;
     font-weight: 700;
 }
 
@@ -400,7 +398,7 @@ div.burger {
 
 
 .activeButton {
-    background-color: red;
+    background-color: #dd5050;
 }
 
 
@@ -413,13 +411,15 @@ div.burger {
 /*onboarding*/
 .golfben {
     width: 100%;
+    position: relative;
+    top: -27vw;
 }
 
 .golfben2 {
     width: 100%;
     position: relative;
-    top: -6vw;
-    left: 3vw;
+    top: -33vw;
+    left: 4vw;
 }
 
 #onboardtekst {
@@ -450,6 +450,52 @@ div.burger {
     margin: auto;
 }
 
+.skipknapper{
+display: flex;
+justify-content: center;
+margin-bottom: 7.5vw;
+}
+
+.skipknap {
+    border: 2.5px outset black;
+    background-color: rgb(255, 255, 255);
+    height: 5vw;
+    width: 5vw;
+    box-shadow: 2.5px 2.5px;
+    margin-left: 10px;
+    
+    
+}
+
+.skipknap2 {
+    border: 2.5px outset black;
+    background-color: #577D30;
+    height: 5vw;
+    width: 10vw;
+    box-shadow: 2.5px 2.5px;
+    margin-right: 10px;
+}
+
+.skipknap3 {
+    border: 2.5px outset black;
+    background-color: rgb(255, 255, 255);
+    height: 5vw;
+    width: 5vw;
+    box-shadow: 2.5px 2.5px;
+    margin-right: 10px;
+}
+
+.skipknap4 {
+    border: 2.5px outset black;
+    background-color: #577D30;
+    height: 5vw;
+    width: 10vw;
+    box-shadow: 2.5px 2.5px;
+    margin-left: 10px;
+}
+
+
+/*antalspillere*/
 .polse {
     display: block;
     margin-left: auto;

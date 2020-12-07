@@ -15,49 +15,50 @@
 
 
 <body onhashchange="pageChange()">
-  
-<nav role='navigation'>
-  <div id="menuToggle">
-    <!--
+  <header>
+    <img src="img/campingvogn.png" alt="campingvogn" class="campingvogn-billede">
+    <nav role='navigation'>
+      <div id="menuToggle">
+        <!--
     A fake / hidden checkbox is used as click reciever,
     so you can use the :checked selector on it.
     -->
     <input type="checkbox" id="menuButton"/>
 
-    <!--
+        <!--
     Some spans to act as a hamburger.
     
     They are acting like a real hamburger,
     not that McDonalds stuff.
     -->
-    <div class="burger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-    <!--
+        <!--
     Too bad the menu has to be inside of the button
     but hey, it's pure CSS magic.
     -->
-    <ul class="hvid_boks" id="menu">
-      <a href="#home" onclick="hidemenu()">
-        <li>forside</li>
-      </a>
-      <a href="#menukort" onclick="hidemenu()">
-        <li>menukort</li>
-      </a>
-      <a href="#bestilling" onclick="hidemenu()">
-        <li>bestilling</li>
-      </a>
-      <a href="#">
-        <li></li>
-      </a>
-    </ul>
-  </div>
-</nav>
+        <ul class="hvid_boks" id="menu">
+          <a href="#home" onclick="hidemenu()">
+            <li>forside</li>
+          </a>
+          <a href="#menukort" onclick="hidemenu()">
+            <li>menukort</li>
+          </a>
+          <a href="#bestilling" onclick="hidemenu()">
+            <li>bestilling</li>
+          </a>
+          <a href="#">
+            <li></li>
+          </a>
+        </ul>
+      </div>
+    </nav>
 
-
+  </header>
 
   <!-- tabbar navigation -->
   <!--
@@ -105,7 +106,7 @@
     <img src="/img/banekort.svg" alt="Banekort" id="forsidebanekort">
   </section>
 
-  <!-- menukort side -->
+  <!-- menukort side (Pernille) -->
   <section id="menukort" class="page">
     <header class="topbar">
 
@@ -115,21 +116,25 @@
       åbent fredag og lørdag, hvis burgersulten melder sig. Ellers har vi masser af snacks at byde på resten af ugen.
     </p>
     <div id="bestilknapper">
-      <button id="bestilbord" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
-      <button id="takeaway" onclick="madMenu()"><span>BAR MENU</span></button>
+      <button id="madmenu-knap" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
+      <button id="barmenu-knap" onclick="madMenu()"><span>BAR MENU</span></button>
     </div>
 
-    <div id="menuKort"> <h2>mad menu</h2>
-        <p class="tekst">køkkenet er åbent fra 16-21</p>
-    <img src="img/menukort.png" alt="menukort" id="menukort-billede"></div>
+    <div id="menuKort">
+      <h2>mad menu</h2>
+      <p class="tekst">køkkenet er åbent fra 16-21</p>
+      <img src="img/menukort.png" alt="menukort" id="menukort-billede">
+    </div>
 
-        <div id="forsvind"><div id="barMenu">
-              <h2> bar menu</h2> <br>
+    <div id="forsvind">
+      <div id="barMenu">
+        <h2> bar menu</h2> <br>
         <img src="img/drikkekort.png" alt="drikkekort" id="drikkekort-billede">
-        </div></div><br>
-       
-        
- 
+      </div>
+    </div><br>
+
+
+
   </section>
 
   <!-- bestillings side -->
@@ -181,6 +186,11 @@
       hvem der skal
       give en omgang i baren.
     </p>
+    <div class="skipknapper">
+      <button class="skipknap2"></button>
+      <a href="#onboard2"><button class="skipknap"></button></a>
+
+    </div>
     <a href="#onboard2"><button class="onboardknap">Næste</button></a>
 
   </section>
@@ -193,6 +203,11 @@
       digitale scorekort, lægger vi pointene
       sammen for dig.
     </p>
+    <div class="skipknapper">
+      <a href="#onboard1"><button class="skipknap3"></button></a>
+      <button class="skipknap4"></button>
+
+    </div>
     <a href="#antalspillere"><button class="onboardknap">Næste</button></a>
 
   </section>
@@ -202,7 +217,9 @@
    
     <h2 class="antal">vælg antal spillere</h2><br><br>
 
-   <input class="button_antal" type="text" placeholder="antal spillere">
+    <input class="button_antal" type="text" placeholder="antal spillere">
+
+    <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
 
    <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
    
