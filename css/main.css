@@ -406,6 +406,21 @@ div.burger {
     display: block;
 }
 
+/*scorekort start*/
+
+/*onboarding*/
+.golfben{
+position: relative;
+top: 0;
+}
+
+.onboardknap{
+display: block;
+margin: auto;
+}
+
+/*antalspillere*/
+
 /* ---------- footer styling (pernille) ---------- */
 
 
