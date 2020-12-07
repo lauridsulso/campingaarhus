@@ -14,6 +14,8 @@
 
 
 
+<body onhashchange="pageChange()">
+  
 <nav role='navigation'>
   <div id="menuToggle">
     <!--
@@ -57,7 +59,6 @@
 
 
 
-<body onhashchange="pageChange()">
   <!-- tabbar navigation -->
   <!--
   <header>
@@ -114,17 +115,21 @@
       åbent fredag og lørdag, hvis burgersulten melder sig. Ellers har vi masser af snacks at byde på resten af ugen.
     </p>
     <div id="bestilknapper">
-      <button id="bestilbord">MAD MENU</button>
-      <button id="takeaway">BAR MENU</button>
+      <button id="bestilbord" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
+      <button id="takeaway" onclick="madMenu()"><span>BAR MENU</span></button>
     </div>
-    <h2>mad menu</h2>
-    <p class="tekst">køkkenet er åbent fra 16-21</p>
 
-    <img src="img/menukort.png" alt="menukort" id="menukort-billede">
-    <h2> bar menu</h2>
+    <div id="menuKort"> <h2>mad menu</h2>
+        <p class="tekst">køkkenet er åbent fra 16-21</p>
+    <img src="img/menukort.png" alt="menukort" id="menukort-billede"></div>
 
-    <img src="img/drikkekort.png" alt="drikkekort" id="drikkekort-billede">
-
+        <div id="forsvind"><div id="barMenu">
+              <h2> bar menu</h2> <br>
+        <img src="img/drikkekort.png" alt="drikkekort" id="drikkekort-billede">
+        </div></div><br>
+       
+        
+ 
   </section>
 
   <!-- bestillings side -->
