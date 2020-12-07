@@ -71,72 +71,12 @@ font-weight: 400;
 font-style: normal;
 ---------- */
 
-/* ---------- Grid container ---------- */
-.grid-container {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-}
-
-/* ---------- topbar styling ---------- */
-.topbar {
-    background-color: transparent;
-    padding: 2em 0;
-    text-transform: uppercase;
-}
-
-.topbar h2 {
-    margin: 0;
-    font-weight: 300;
-}
-
 /* ---------- header styling ---------- */
-
 
 .campingvogn-billede {
     width: 30%;
 }
 
-.img-col img {
-    max-width: 200px;
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-}
-
-.grid-container section {
-    position: relative;
-}
-
-/* ---------- tabbar styling ---------- */
-.tabbar {
-    background-color: var(--green);
-    margin: auto;
-    width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-.tabbar a {
-    display: inline-block;
-    color: var(--text-color-light);
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
-    font-size: 0.8em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
-
-/* Change the color of links on hover */
-.tabbar a:hover {
-    background-color: var(--light-grey);
-    color: var(--text-color-dark);
-}
-
-/* Add a color to the active/current link */
-.tabbar a.active {
-    background-color: var(--light-green);
-    color: var(--text-color-light);
-}
 
 /* ---------- page styling ---------- */
 .page {
@@ -204,7 +144,7 @@ font-style: normal;
 
 
 
-/*---------burgermenu TINE--------*/
+/*---------burgermenu (TINE)--------*/
 body {
     margin: 0;
     padding: 0;
@@ -217,8 +157,6 @@ a {
     transition: color 0.3s ease;
     font-weight: 700;
 }
-
-
 
 #menuToggle {
     display: block;
@@ -267,28 +205,18 @@ a {
     transform-origin: 0% 100%;
 }
 
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
 #menuToggle input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked~span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -1px);
@@ -300,16 +228,11 @@ a {
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 #menu {
     position: absolute;
     width: 309px;
     margin: -55px 0 0 0;
     padding: 50px;
-    padding-top: 125px;
     right: -50px;
     text-align: center;
     background: #ededed;
@@ -326,11 +249,10 @@ a {
 #menu li {
     padding: 10px 0;
     font-size: 22px;
+    font-weight: bolder;
+     line-height: 50px;
 }
 
-/*
- * And let's fade it in from the left
- */
 #menuToggle input:checked~ul {
     transform: scale(1.0, 1.0);
     opacity: 1;
@@ -354,13 +276,16 @@ a {
     background-color: white;
     box-shadow: 3px 3px;
     border: 2px outset black;
-    padding: 10px 6px;
+    padding: 22px 22px;
 }
 
 div.burger {
-    margin-right: -30px;
-    margin-top: -24px;
-}
+    margin-right: -9px;
+    margin-left: -8px;
+    margin-top: -15px;
+    position: absolute;
+    z-index: -999;
+} 
 
 /*BESTILLING SIDE START---------*/
 
@@ -435,24 +360,6 @@ div.burger {
     margin: auto;
 }
 
-/*-------------antalspillere (TINE)-------------*/
-
-.antal {
-    margin-top: 80px;
-}
-
-.button_antal {
-    border: 2.5px outset black;
-    background-color: white;
-    height: 10vw;
-    width: 35vw;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 800;
-    font-size: 4.75vw;
-    box-shadow: 2.5px 2.5px;
-    display: block;
-    margin: auto;
-}
 
 .skipknapper{
 display: flex;
@@ -499,7 +406,7 @@ margin-bottom: 7.5vw;
 }
 
 
-/*antalspillere*/
+/*-------------antalspillere (TINE)-------------*/
 .polse {
     display: block;
     margin-left: auto;
@@ -508,6 +415,24 @@ margin-bottom: 7.5vw;
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
+.antal {
+    margin-top: 80px;
+}
+
+.button_antal {
+    border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 35vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
+    display: block;
+    margin: auto;
+}
+
 
 /* ---------- footer styling (pernille) ---------- */
 
