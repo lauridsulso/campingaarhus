@@ -344,6 +344,9 @@ div.burger {
 /*scorekort start*/
 
 /*onboarding*/
+#onboard1{
+}
+
 .golfben {
     width: 100%;
     position: absolute;
@@ -383,7 +386,7 @@ div.burger {
 }
 
 .skipknap {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: rgb(255, 255, 255);
     height: 5vw;
     width: 5vw;
@@ -394,7 +397,7 @@ div.burger {
 }
 
 .skipknap2 {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: #577D30;
     height: 5vw;
     width: 10vw;
@@ -403,7 +406,7 @@ div.burger {
 }
 
 .skipknap3 {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: rgb(255, 255, 255);
     height: 5vw;
     width: 5vw;
@@ -412,7 +415,7 @@ div.burger {
 }
 
 .skipknap4 {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: #577D30;
     height: 5vw;
     width: 10vw;
