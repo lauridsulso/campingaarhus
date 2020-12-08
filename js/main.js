@@ -7,6 +7,8 @@ function madMenu() {
     document.getElementById('madmenu-knap').classList.remove("activeButton");
 }
 
+
+
 function barMenu() {
     document.getElementById('forsvind').style.display = "none";
     document.getElementById('menuKort').style.display = "block";
