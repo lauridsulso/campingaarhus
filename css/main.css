@@ -421,9 +421,7 @@ div.burger {
     margin-bottom: 70px;
 }
 
-.antal {
-    margin-top: 80px;
-}
+
 
 .button_antal {
     border: 2.5px outset black;
@@ -438,6 +436,54 @@ div.burger {
     margin: auto;
 }
 
+/* ---------- tillykke siden (tine) ---------- */
+.vinder_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.vinderet {
+    grid-column: 1/2;
+}
+
+.vinderto {
+    grid-column: 2/3;
+}
+
+.vindertre {
+    grid-column: 3/4;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.overskrift {
+    text-align: center;
+    margin-left: 0;
+}
+
+.onboardknap_share {
+   border: 2.5px outset black;
+    background-color: white;
+    height: 10vw;
+    width: 50vw;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 800;
+    font-size: 4.75vw;
+    box-shadow: 2.5px 2.5px;
+    outline: none;
+    display: block;
+    margin: auto;
+}
+
+.leaderboard {
+    display: block;
+    margin: auto;
+}
 
 /* ---------- footer styling (pernille) ---------- */
 
