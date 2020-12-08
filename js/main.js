@@ -30,7 +30,7 @@ function hidemenu() {
 function createPlayers() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);
     for (let i = 0; i <= userInput - 1; i++) {
-        document.getElementById("her").innerHTML += "<input type='text' />"
+        document.getElementById("her").innerHTML += "<input placeholder='Spillernavn' type='text' />"
     }
     navigateTo("indtastjeresnavne")
 }
