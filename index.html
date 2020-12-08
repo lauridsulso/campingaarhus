@@ -222,12 +222,30 @@
     <h2 class="antal">vælg antal spillere</h2><br><br>
 
 
-    
+
     <form action="http://localhost.WebProg.php" method="post" name="form2">
+     
+    <input class="number" type="text" name="txtInput" id="numberofplayers"/>
+
+    <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
+    
+    
+    </form>
+    <input class="create" type="button" name="btnInput" value="Næste" onclick="createPlayers()"/>
+    
+
+    
+
       <p>How many text fields you want to create? Enter the number below!</p>Input:
-      <input type="text" name="txtInput" id="numberofplayers" />
-  </form>
-    <input type="button" name="btnInput" value="Create" onclick="createPlayers()"/>
+      <input type="number" name="txtInput" id="numberofplayers" />
+
+
+    </form>
+    <input type="button" name="btnInput" value="Create" onclick="createPlayers()" />
+
+
+
+
 
   </section>
 
@@ -237,9 +255,12 @@
 
     <h2 class="antal">indtast jeres navne</h2><br><br>
     <div id="her"></div>
+    <button class="plus"><img src="img/plus.svg">tilføj spiller</button>
 
-
-
+    <input class="create" type="button" name="btnInput" value="SÆT IGANG" onclick="" />
+    <a class="links" href="#home">
+    <p class="nyp">tilbage</p>
+    </a>
 
   </section>
 
@@ -254,6 +275,7 @@
 
 
     <a href=""><button class="onboardknap">SÆT IGANG</button></a>
+   
 
   </section>
 
