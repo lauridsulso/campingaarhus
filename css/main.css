@@ -255,7 +255,7 @@ a {
     padding: 10px 0;
     font-size: 22px;
     font-weight: bolder;
-     line-height: 50px;
+    line-height: 50px;
 }
 
 #menuToggle input:checked~ul {
@@ -290,7 +290,7 @@ div.burger {
     margin-top: -15px;
     position: absolute;
     z-index: -999;
-} 
+}
 
 /*BESTILLING SIDE START---------*/
 
@@ -336,9 +336,17 @@ div.burger {
     color: white;
 }
 
+.barMenu {
+    display: none;
+}
+
+
 /*scorekort start*/
 
 /*onboarding*/
+#onboard1{
+}
+
 .golfben {
     width: 100%;
     position: absolute;
@@ -365,6 +373,11 @@ div.burger {
     margin: auto;
 }
 
+#springover{
+    display: block;
+    margin-left: 40vw;
+}
+
 
 .skipknapper {
     display: flex;
@@ -373,7 +386,7 @@ div.burger {
 }
 
 .skipknap {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: rgb(255, 255, 255);
     height: 5vw;
     width: 5vw;
@@ -384,7 +397,7 @@ div.burger {
 }
 
 .skipknap2 {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: #577D30;
     height: 5vw;
     width: 10vw;
@@ -393,7 +406,7 @@ div.burger {
 }
 
 .skipknap3 {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: rgb(255, 255, 255);
     height: 5vw;
     width: 5vw;
@@ -402,7 +415,7 @@ div.burger {
 }
 
 .skipknap4 {
-    border: 2.5px outset black;
+    border: 1.5px outset black;
     background-color: #577D30;
     height: 5vw;
     width: 10vw;
