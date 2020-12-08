@@ -17,6 +17,8 @@ function barMenu() {
 
 }
 
+barMenu();
+
 
 
 //navigationsmenuen (tine)
