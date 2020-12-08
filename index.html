@@ -222,36 +222,34 @@
     <h2 class="antal">vælg antal spillere</h2><br><br>
 
 
-    <input class="button_antal" type="number" placeholder="antal spillere">
+    
+    <form action="http://localhost.WebProg.php" method="post" name="form2">
+      <p>How many text fields you want to create? Enter the number below!</p>Input:
+      <input type="text" name="txtInput" id="numberofplayers" />
+    
+    
+  </form>
+    <input type="button" name="btnInput" value="Create" onclick="createPlayers()"/>
+    
 
-    <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
+    
 
-    <a href="#indtastjeresnavne"><button class="onboardknap">Næste</button></a>
-
-  </section>
-
-
-  <!-- antal spillere -->
-  <section id="indtastjeresnavne" class="page">
-
-    <h2 class="antal">indtast jeres navne</h2><br><br>
-
-    <input class="button_antal" type="text" placeholder="spiller 1">
-
-    <a href="#tillykke"><button class="onboardknap">SÆT IGANG</button></a>
 
   </section>
+
 
   <!-- indtast navne -->
   <section id="indtastjeresnavne" class="page">
 
     <h2 class="antal">indtast jeres navne</h2><br><br>
+    <div id="her"></div>
 
-    <input class="button_antal" type="text" placeholder="spiller 1">
 
-    <a href=""><button class="onboardknap">SÆT IGANG</button></a>
+
 
   </section>
+
+
 
   <!-- hul 1 -->
   <section id="hul1" class="page">
@@ -266,25 +264,25 @@
   </section>
 
 
-<!-- tillykke -->
-<section id="tillykke" class="page">
+  <!-- tillykke -->
+  <section id="tillykke" class="page">
 
-  <h2 class="overskrift">tillykke Laurids</h2>
-  <h3>du er den bedste campist!</h3><br>
+    <h2 class="overskrift">tillykke Laurids</h2>
+    <h3>du er den bedste campist!</h3><br>
 
-  <div class="vinder_container">
-  <img class="vinderet" src="img/vinderr2.png" alt="vinder trofæ" width="100%">
-  <img class="vinderto" src="img/vinder1.png" alt="vinder trofæ" width="100%">
-  <img class="vindertre" src="img/vinder3.png" alt="vinder trofæ" width="100%">
-  </div>
-  <img class="leaderboard" src="img/leaderboard.png" alt="vinder trofæ" width="90%"><br>
- 
+    <div class="vinder_container">
+      <img class="vinderet" src="img/vinderr2.png" alt="vinder trofæ" width="100%">
+      <img class="vinderto" src="img/vinder1.png" alt="vinder trofæ" width="100%">
+      <img class="vindertre" src="img/vinder3.png" alt="vinder trofæ" width="100%">
+    </div>
+    <img class="leaderboard" src="img/leaderboard.png" alt="vinder trofæ" width="90%"><br>
 
-  <a href=""><button class="onboardknap_share">DEL RESULTATET</button></a>
 
-  <a class="links" id="springover" href="#">
-    <p class="nyp">tilbage til startsiden</p>
-  </a>
+    <a href=""><button class="onboardknap_share">DEL RESULTATET</button></a>
+
+    <a class="links" href="#home">
+      <p class="nyp">tilbage til startsiden</p>
+    </a>
 
   </section>
 
@@ -295,8 +293,8 @@
     <div class="footer-grid">
       <div class="footer-grid-item-1">
         <img src="img/teltplads.png" alt="telte" class="telt-billede"> </div>
-    
-        <div class="footer-grid-item-2 footer">
+
+      <div class="footer-grid-item-2 footer">
         <p>
           <span class="bold-tekst-footer">kontakt</span> <br>
           Camping Aarhus <br>

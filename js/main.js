@@ -14,7 +14,7 @@ function barMenu() {
     document.getElementById('menuKort').style.display = "block";
     document.getElementById('madmenu-knap').classList.add("activeButton");
     document.getElementById('barmenu-knap').classList.remove("activeButton");
-    
+
 }
 
 
@@ -22,6 +22,17 @@ function barMenu() {
 //navigationsmenuen (tine)
 function hidemenu() {
     document.querySelector("#menuButton").checked = false;
+}
+
+
+// antal spillere
+
+function createPlayers() {
+    let userInput = parseInt(document.getElementById("numberofplayers").value);
+    for (let i = 0; i <= userInput - 1; i++) {
+        document.getElementById("her").innerHTML += "<input type='text' />"
+    }
+    navigateTo("indtastjeresnavne")
 }
 
 
