@@ -41,28 +41,34 @@ function pageChange() {
   }
   showPage(page);
 
-// det har vi lige sat ind
-  if (page === "onboard1") {
-    hideStuff(true);
+// Maja og Pernille
+  if (page === "onboard1" || page === "onboard2" || page === "antalspillere" || page === "indtastjeresnavne") {
+    hideHeader(true);
+    hideFooter(true);
   } else {
-    hideStuff(false);
+    hideHeader(false);
+    hideFooter(false);
   }
-
-  // slut her
-
 }
-
 pageChange(); // called by default when the app is loaded for the first time
 
-// det har vi lige sat ind
-
-function hideStuff(hide) {
-  let tabbar = document.querySelector('.footer-grid');
+// Maja og Pernille
+function hideHeader(hide) {
+  let stuff = document.querySelector('.header');
   if (hide) {
-    tabbar.classList.add("hide");
+    stuff.classList.add("hide");
   } else {
-    tabbar.classList.remove("hide");
+    stuff.classList.remove("hide");
   }
 }
 
+// Tine og Maja
+function hideFooter(hide) {
+  let stuff = document.querySelector('.footer');
+  if (hide) {
+    stuff.classList.add("hide");
+  } else {
+    stuff.classList.remove("hide");
+  }
+}
 // slut her
