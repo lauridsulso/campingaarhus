@@ -21,6 +21,11 @@ body {
 
 }
 
+.hide {
+    display: none;
+}
+
+
 h1 {
     font-size: 2em;
     font-weight: 300;
@@ -421,7 +426,7 @@ div.burger {
     top: -25px;
 }
 
-.onboardh2{
+.onboardh2 {
     margin-top: 30vw;
 }
 
@@ -453,10 +458,10 @@ div.burger {
     margin: auto;
 }
 
-.skipknapper{
-display: flex;
-justify-content: center;
-margin-bottom: 7.5vw;
+.skipknapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.5vw;
 }
 
 .skipknap {
@@ -466,8 +471,8 @@ margin-bottom: 7.5vw;
     width: 5vw;
     box-shadow: 2.5px 2.5px;
     margin-left: 10px;
-    
-    
+
+
 }
 
 .skipknap2 {

@@ -40,6 +40,29 @@ function pageChange() {
     page = location.hash.slice(1);
   }
   showPage(page);
+
+// det har vi lige sat ind
+  if (page === "onboard1") {
+    hideStuff(true);
+  } else {
+    hideStuff(false);
+  }
+
+  // slut her
+
 }
 
 pageChange(); // called by default when the app is loaded for the first time
+
+// det har vi lige sat ind
+
+function hideStuff(hide) {
+  let tabbar = document.querySelector('.footer-grid');
+  if (hide) {
+    tabbar.classList.add("hide");
+  } else {
+    tabbar.classList.remove("hide");
+  }
+}
+
+// slut her
