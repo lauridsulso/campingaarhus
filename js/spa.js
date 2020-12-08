@@ -71,4 +71,5 @@ function hideFooter(hide) {
     stuff.classList.remove("hide");
   }
 }
+
 // slut her

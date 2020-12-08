@@ -25,7 +25,7 @@ function hidemenu() {
 }
 
 
-// antal spillere
+// antal spillere (maja, laurids, pernille, tine)
 
 function createPlayers() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);

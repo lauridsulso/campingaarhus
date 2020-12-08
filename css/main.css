@@ -341,23 +341,17 @@ div.burger {
 
 .golfben {
     width: 100%;
-    position: absolute;
+
     top: 0;
 }
 
 .golfben2 {
     width: 100%;
-    position: absolute;
-    top: -25px;
-    left: 4vw;
-}
-
-.onboardh2 {
-    margin-top: 30vw;
+    left: 45px;
 }
 
 #onboardtekst {
-    margin-bottom: 20vw;
+    margin-bottom: 10vw;
 }
 
 .onboardknap {
