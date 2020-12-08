@@ -54,21 +54,21 @@ pageChange(); // called by default when the app is loaded for the first time
 
 // Maja og Pernille
 function hideHeader(hide) {
-  let stuff = document.querySelector('.header');
+  let header = document.querySelector('.header');
   if (hide) {
-    stuff.classList.add("hide");
+    header.classList.add("hide");
   } else {
-    stuff.classList.remove("hide");
+    header.classList.remove("hide");
   }
 }
 
 // Tine og Maja
 function hideFooter(hide) {
-  let stuff = document.querySelector('.footer');
+  let footer = document.querySelector('.footer');
   if (hide) {
-    stuff.classList.add("hide");
+    footer.classList.add("hide");
   } else {
-    stuff.classList.remove("hide");
+    footer.classList.remove("hide");
   }
 }
 
