@@ -14,7 +14,7 @@ function barMenu() {
     document.getElementById('menuKort').style.display = "block";
     document.getElementById('madmenu-knap').classList.add("activeButton");
     document.getElementById('barmenu-knap').classList.remove("activeButton");
-    
+
 }
 
 
@@ -23,6 +23,15 @@ function barMenu() {
 function hidemenu() {
     document.querySelector("#menuButton").checked = false;
 }
+
+let btn = document.getElementsByTagName("input")[1];
+
+btn.onclick = function () {
+    let userInput = parseInt(document.getElementsByTagName("input")[0].value, 10);
+    for (let i = 0; i <= userInput - 1; i++) {
+        document.getElementById("her").innerHTML += "<input type='text' />"
+    }
+};
 
 
 
