@@ -365,6 +365,11 @@ div.burger {
     margin: auto;
 }
 
+#springover{
+    display: block;
+    margin-left: 40vw;
+}
+
 
 .skipknapper {
     display: flex;
