@@ -15,7 +15,7 @@
 
 
 <body onhashchange="pageChange()">
-  <header>
+  <header class="header">
     <img src="img/campingvogn.png" alt="campingvogn" class="campingvogn-billede">
     <nav role='navigation'>
       <div id="menuToggle">
@@ -182,7 +182,7 @@
   <!-- scorekort -->
   <!-- onboarding 1 -->
   <section id="onboard1" class="page">
-    <img class="golfben" src="img/ben.png" alt="BILLEDE AF FØDDER MED MINIGOLF HER">
+    <img class="golfben" src="img/ben.png" alt="">
     <h2 class="onboardh2">velkommen til scorekortet</h2>
     <p id="onboardtekst" class="tekst">Her indtaster du spillernes point og kan løbende se hvem der ligger i toppen - og
       hvem der skal
@@ -194,12 +194,14 @@
 
     </div>
     <a href="#onboard2"><button class="onboardknap">Næste</button></a>
-
+    <a class="links" id="springover" href="#antalspillere">
+      <p>spring over</p>
+    </a>
   </section>
 
   <!-- onboarding 2 -->
   <section id="onboard2" class="page">
-    <img class="golfben2" src="img/golfben.png" alt="BILLEDE AF FØDDER MED MINIGOLF HER">
+    <img class="golfben2" src="img/golfben.png" alt="">
     <h2 class="onboardh2">hovedregning er so last year</h2>
     <p id="onboardtekst" class="tekst">Er du også træt af at lægge jeres point sammen i hovedet? Når du bruger vores
       digitale scorekort, lægger vi pointene
@@ -229,9 +231,6 @@
   </section>
 
 
-
-
-
   <!-- antal spillere -->
   <section id="indtastjeresnavne" class="page">
 
@@ -239,7 +238,7 @@
 
     <input class="button_antal" type="text" placeholder="spiller 1">
 
-    <a href=""><button class="onboardknap">SÆT IGANG</button></a>
+    <a href="#tillykke"><button class="onboardknap">SÆT IGANG</button></a>
 
   </section>
 
@@ -267,6 +266,23 @@
   </section>
 
 
+<!-- tillykke -->
+<section id="tillykke" class="page">
+
+  <h2 class="overskrift">tillykke Laurids</h2>
+  <h3>du er den bedste campist!</h3><br>
+
+  <div class="vinder_container">
+  <img class="vinderet" src="img/vinderr2.png" alt="vinder trofæ" width="100%">
+  <img class="vinderto" src="img/vinder1.png" alt="vinder trofæ" width="100%">
+  <img class="vindertre" src="img/vinder3.png" alt="vinder trofæ" width="100%">
+  </div>
+  <img class="leaderboard" src="img/leaderboard.png" alt="vinder trofæ" width="90%"><br>
+ 
+
+  <a href=""><button class="onboardknap_share">DEL RESULTATET</button></a>
+
+  </section>
 
 
 
@@ -275,7 +291,8 @@
     <div class="footer-grid">
       <div class="footer-grid-item-1">
         <img src="img/teltplads.png" alt="telte" class="telt-billede"> </div>
-      <div class="footer-grid-item-2">
+    
+        <div class="footer-grid-item-2 footer">
         <p>
           <span class="bold-tekst-footer">kontakt</span> <br>
           Camping Aarhus <br>

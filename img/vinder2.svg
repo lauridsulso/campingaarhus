@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="94" viewBox="0 0 126 94">
+  <defs>
+    <filter id="Rectangle_349" x="16" y="0" width="96" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_2." x="45.3" y="0.355" width="37.4" height="48.4" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="vinder2" transform="translate(-16168 -529)">
+    <g transform="matrix(1, 0, 0, 1, 16168, 529)" filter="url(#Rectangle_349)">
+      <g id="Rectangle_349-2" data-name="Rectangle 349" transform="translate(16)" fill="#d8d8e0" stroke="#0a0a0a" stroke-width="2">
+        <rect width="93" height="91" stroke="none"/>
+        <rect x="1" y="1" width="91" height="89" fill="none"/>
+      </g>
+    </g>
+    <text id="Pernille" transform="translate(16168 573)" fill="#0a0a0a" font-size="17" font-family="SofiaPro-Black, Sofia Pro" font-weight="800"><tspan x="-30.175" y="17">Pernille</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 16168, 529)" filter="url(#_2.)">
+      <text id="_2.-2" data-name="2." transform="translate(46.5 1.56)" fill="#fff" stroke="#000" stroke-width="1.2" font-size="35" font-family="SofiaPro-Black, Sofia Pro" font-weight="800"><tspan x="-14.35" y="35">2.</tspan></text>
+    </g>
+    <text id="_29_slag" data-name="29 slag" transform="translate(16210 595)" fill="#0a0a0a" font-size="12" font-family="SofiaPro-Medium, Sofia Pro" font-weight="500"><tspan x="-19.554" y="12">29 slag</tspan></text>
+  </g>
+</svg>
