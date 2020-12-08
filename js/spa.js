@@ -42,7 +42,7 @@ function pageChange() {
   showPage(page);
 
 // Maja og Pernille
-  if (page === "onboard1" || page === "onboard2" || page === "antalspillere" || page === "indtastjeresnavne") {
+  if (page === "onboard1" || page === "onboard2" || page === "antalspillere" || page === "indtastjeresnavne" || page === "tillykke") {
     hideHeader(true);
     hideFooter(true);
   } else {
