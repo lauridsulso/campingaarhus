@@ -14,6 +14,7 @@ function barMenu() {
     document.getElementById('menuKort').style.display = "block";
     document.getElementById('madmenu-knap').classList.add("activeButton");
     document.getElementById('barmenu-knap').classList.remove("activeButton");
+    
 }
 
 
