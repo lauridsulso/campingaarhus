@@ -26,14 +26,14 @@ function hidemenu() {
 
 
 // antal spillere
-var btn = document.getElementsByTagName("input")[1];
 
-btn.onclick = function () {
-    var userInput = parseInt(document.getElementsByTagName("input")[0].value, 10);
-    for (var i = 0; i <= userInput - 1; i++) {
+function createPlayers() {
+    let userInput = parseInt(document.getElementById("numberofplayers").value);
+    for (let i = 0; i <= userInput - 1; i++) {
         document.getElementById("her").innerHTML += "<input type='text' />"
     }
-};
+    navigateTo("indtastjeresnavne")
+}
 
 
 
