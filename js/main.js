@@ -1,4 +1,4 @@
-//maja og pernille
+//maja og pernille, skjuler madmenu/barmenu
 
 function madMenu() {
     document.getElementById('forsvind').style.display = "block";
