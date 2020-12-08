@@ -10,8 +10,6 @@
 /* ---------- general styling ---------- */
 html {
     color: var(--text-color-dark);
-    height: 100%;
-    width: 100%;
 }
 
 body {
@@ -336,11 +334,6 @@ div.burger {
     color: white;
 }
 
-.barMenu {
-    display: none;
-}
-
-
 /*scorekort start*/
 
 /*onboarding*/
@@ -502,6 +495,13 @@ h3 {
 
 /* ---------- footer styling (pernille) ---------- */
 
+footer {
+    clear: both !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
 
 .footer-grid {
     display: grid;
@@ -509,6 +509,7 @@ h3 {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+
 }
 
 .footer-grid-item-1 {
