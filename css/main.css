@@ -255,7 +255,7 @@ a {
     padding: 10px 0;
     font-size: 22px;
     font-weight: bolder;
-     line-height: 50px;
+    line-height: 50px;
 }
 
 #menuToggle input:checked~ul {
@@ -290,7 +290,7 @@ div.burger {
     margin-top: -15px;
     position: absolute;
     z-index: -999;
-} 
+}
 
 /*BESTILLING SIDE START---------*/
 
@@ -335,6 +335,11 @@ div.burger {
 .activeButton>span {
     color: white;
 }
+
+.barMenu {
+    display: none;
+}
+
 
 /*scorekort start*/
 
