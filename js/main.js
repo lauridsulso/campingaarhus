@@ -39,7 +39,7 @@ function createPlayers() {
 }
 
 
-// exit knap i spillet (maja)
+// exit knap i spillet (maja, tine)
 
 function exit() {
     let page = (confirm("Er du sikker på, at du vil afslutte spillet?")); 
@@ -75,7 +75,6 @@ function createGame() {
         players: newPlayers
     };
     console.log(newGame);
-
 }
 
 
