@@ -39,4 +39,28 @@ function createPlayers() {
 }
 
 
+function createGame() {
+    //få spillernes navne fra input
+    let userInputs = document.querySelectorAll("#her input");
+
+    //opret array med spiller objects 
+    let newPlayers = [];
+    for (const userInput of userInputs) {
+        console.log(userInput.value);
+        let newPlayer = {
+            name: userInput.value
+        }
+        newPlayers.push(newPlayer);
+    }
+
+    //opret nyt spil object
+    let newGame = {
+        numberOfPlayers: newPlayers.length,
+        players: newPlayers
+    };
+    console.log(newGame);
+
+}
+
+
 
