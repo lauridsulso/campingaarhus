@@ -334,6 +334,8 @@ div.burger {
 /*onboarding*/
 .onboardh2 {
     margin-top: 45px;
+    line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .golfben {
@@ -348,7 +350,7 @@ div.burger {
 }
 
 #onboardtekst {
-    margin-bottom: 10vw;
+    margin-bottom: 7vw;
 }
 
 .onboardknap {
@@ -364,7 +366,7 @@ div.burger {
 .skipknapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 7.5vw;
+    margin-bottom: 4vw;
 }
 
 .skipknap {
