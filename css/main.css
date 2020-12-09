@@ -296,7 +296,7 @@ div.burger {
     margin-top: 5vw;
 }
 
-#bestilknapper {
+.bestilknapper {
     display: flex;
     justify-content: space-between;
     margin: 10vw;
