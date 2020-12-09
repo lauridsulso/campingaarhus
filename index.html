@@ -116,8 +116,8 @@
       åbent fredag og lørdag, hvis burgersulten melder sig. Ellers har vi masser af snacks at byde på resten af ugen.
     </p>
     <div id="bestilknapper">
-      <button id="madmenu-knap" onclick="barMenu()" class="activeButton"><span>MAD MENU</span></button>
-      <button id="barmenu-knap" onclick="madMenu()"><span>BAR MENU</span></button>
+      <button id="madmenu-knap" onclick="barMenu()" class="activeButton"><span>Mad menu</span></button>
+      <button id="barmenu-knap" onclick="madMenu()"><span>Bar menu</span></button>
     </div>
 
     <div id="menuKort">
@@ -146,10 +146,9 @@
     <p class="tekst" id="sultenefterburger">Sulten efter burgere?</p>
     <div id="bestilknapper">
       <a href="https://book.dinnerbooking.com/dk/da-DK/book/table/pax/2045/2" target="_blank"><button
-          id="bestilbord">BESTIL
-          BORD</button></a>
+          id="bestilbord">Bestil bord</button></a>
       <a href="https://cloud-kitchen.dk/cocks-cows/camping-aarhus/" target="_blank"><button
-          id="takeaway">TAKEAWAY</button></a>
+          id="takeaway">Takeaway</button></a>
     </div>
     <p class="tekst" id="bestiltekst">Minigolfbanerne bookes ikke på forhånd. Det er nemlig drop-in, fordi vi altid har
       plads til
@@ -180,12 +179,12 @@
 
 
   <!-- scorekort -->
-  <!-- onboarding 1 -->
+  <!-- onboarding 1 (Laurids) -->
   <section id="onboard1" class="page">
     <img class="golfben" src="img/ben.png" alt="">
     <h2 class="onboardh2">velkommen til scorekortet</h2>
     <p id="onboardtekst" class="tekst">Her indtaster du spillernes point og kan løbende se hvem der ligger i toppen - og
-      hvem af jer der skal
+      hvem der skal
       give en omgang i baren.
     </p>
     <div class="skipknapper">
@@ -199,7 +198,7 @@
     </a>
   </section>
 
-  <!-- onboarding 2 -->
+  <!-- onboarding 2 (Laurids) -->
   <section id="onboard2" class="page">
     <img class="golfben2" src="img/golfben.png" alt="">
     <h2 class="onboardh2">hovedregning er so last year</h2>
@@ -209,7 +208,7 @@
     </p>
     <div class="skipknapper">
       <a href="#onboard1"><button class="skipknap3"></button></a>
-      <a href="#onboard2"><button class="skipknap4"></button></a>
+      <a href="#onboard2"> <button class="skipknap4"></button></a>
 
     </div>
     <a href="#antalspillere"><button class="onboardknap">Næste</button></a>
@@ -224,19 +223,27 @@
 
 
     <form action="http://localhost.WebProg.php" method="post" name="form2">
-     
-    <input class="number" type="text" name="txtInput" id="numberofplayers" placeholder="antal spillere"/>
 
-   
+      <input class="number" type="text" name="txtInput" id="numberofplayers" />
 
       <img class="polse" src="img/boldmedfartpaa.png" alt="bold med fart på">
 
 
     </form>
-    <input class="create" type="button" name="btnInput" value="Næste" onclick="createPlayers()"/>
-   
+    <input class="create" type="button" name="btnInput" value="Næste" onclick="createPlayers()" />
+
+
+
+
+
+
     </form>
-   
+
+
+
+
+
+
   </section>
 
 
@@ -247,9 +254,9 @@
     <div id="her"></div>
     <button class="plus"><img src="img/plus.svg">tilføj spiller</button>
 
-    <input class="create" type="button" name="btnInput" value="SÆT IGANG" onclick="" />
-    <a class="links" href="#antalspillere">
-    <p class="nyp">tilbage</p>
+    <input class="create" type="button" name="btnInput" value="Sæt igang" onclick="" />
+    <a class="links" href="#home">
+      <p class="nyp">tilbage</p>
     </a>
 
   </section>
@@ -324,13 +331,6 @@
   <script src="js/spa.js"></script>
   <!-- main js file -->
   <script src="js/main.js"></script>
-  <script src="js/firebase.js"></script>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
 </body>
 
 </html>
