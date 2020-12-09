@@ -490,6 +490,7 @@ h3 {
 .overskrift {
     text-align: center;
     margin-left: 0;
+    margin-top: 25px;
 }
 
 .onboardknap_share {
