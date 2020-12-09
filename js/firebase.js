@@ -16,4 +16,4 @@ firebase.initializeApp(firebaseConfig);
 
 
 firestore()
-export const postRef = db.collection('games')
+export const postRef = db.collection('games');
