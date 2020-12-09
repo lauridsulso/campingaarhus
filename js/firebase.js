@@ -1,3 +1,7 @@
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+
+
 // Your web app's Firebase configuration
 let firebaseConfig = {
   apiKey: "AIzaSyDZnVlneuJHUs8AwH4FajXXViKvVsvTFQ4",
@@ -9,3 +13,7 @@ let firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
+
+firestore()
+export const postRef = db.collection('games')

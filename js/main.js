@@ -47,11 +47,9 @@ function exit() {
           window.location.hash = 'home';
     } else {
         window.history.go('#onboard1');
-        
     }
     
   }
-
 
 
   
