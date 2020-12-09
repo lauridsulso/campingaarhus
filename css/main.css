@@ -115,7 +115,6 @@ font-style: normal;
 }
 
 #forsidescorekort {
-    text-transform: uppercase;
     width: 45vw;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -235,6 +234,7 @@ a {
 }
 
 #menu {
+    display: none;
     position: absolute;
     width: 309px;
     margin: -55px 0 0 0;
@@ -262,7 +262,7 @@ a {
 #menuToggle input:checked~ul {
     transform: scale(1.0, 1.0);
     opacity: 1;
-
+    display: block;
 }
 
 #menuToggle input:checked~span {
@@ -299,7 +299,7 @@ div.burger {
     margin-top: 5vw;
 }
 
-#bestilknapper {
+.bestilknapper {
     display: flex;
     justify-content: space-between;
     margin: 10vw;

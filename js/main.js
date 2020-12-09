@@ -27,6 +27,7 @@ function hidemenu() {
 }
 
 
+
 // antal spillere (maja, laurids, pernille, tine)
 
 function createPlayers() {
