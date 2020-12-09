@@ -332,7 +332,9 @@ div.burger {
 /*scorekort start*/
 
 /*onboarding*/
-#onboard1 {}
+.onboardh2 {
+    margin-top: 45px;
+}
 
 .golfben {
     width: 100%;
