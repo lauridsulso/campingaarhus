@@ -232,6 +232,7 @@ a {
 }
 
 #menu {
+    display: none;
     position: absolute;
     width: 309px;
     margin: -55px 0 0 0;
@@ -259,7 +260,7 @@ a {
 #menuToggle input:checked~ul {
     transform: scale(1.0, 1.0);
     opacity: 1;
-
+    display: block;
 }
 
 #menuToggle input:checked~span {
