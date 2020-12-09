@@ -93,6 +93,9 @@ font-style: normal;
     color: black;
 }
 
+.exit {
+    text-align: center;
+}
 
 /* ---------- forside MAJA ---------- */
 #forsidelogo {
