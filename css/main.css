@@ -337,7 +337,7 @@ div.burger {
 /*scorekort start*/
 
 /*onboarding*/
-#onboard1 {}
+
 
 .golfben {
     width: 100%;
@@ -414,13 +414,15 @@ div.burger {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 40px;
     width: 50%;
     margin-top: 70px;
     margin-bottom: 70px;
 }
 
 
-.number, .create {
+.number,
+.create {
     border: 2.5px outset black;
     background-color: white;
     height: 10vw;
@@ -445,19 +447,19 @@ input {
     font-size: 4.75vw;
     box-shadow: 2.5px 2.5px;
     display: block;
-    margin: auto; 
+    margin: auto;
     margin-bottom: 20px;
 }
 
 .plus {
-     border: 2.5px outset black;
+    border: 2.5px outset black;
     background-color: white;
     height: 10vw;
     width: 40vw;
     font-family: sofia-pro, sans-serif;
     font-weight: 800;
     font-size: 4.75vw;
-    box-shadow: 2.5px 2.5px; 
+    box-shadow: 2.5px 2.5px;
     margin-bottom: 70px;
     margin-left: 40px;
 }
