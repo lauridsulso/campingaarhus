@@ -28,7 +28,7 @@ function setActiveTab(pageId) {
 }
 
 // navigate to a new view/page by changing href
-function navigateTo(pageId){
+function navigateTo(pageId) {
   location.href = `#${pageId}`;
 }
 
@@ -41,8 +41,8 @@ function pageChange() {
   }
   showPage(page);
 
-// Maja og Pernille
-  if (page === "onboard1" || page === "onboard2" || page === "antalspillere" || page === "indtastjeresnavne" || page === "tillykke") {
+  // Maja og Pernille
+  if (page === "onboard1" || page === "onboard2" || page === "antalspillere" || page === "indtastjeresnavne" || page === "tillykke" || page === "hul1") {
     hideHeader(true);
     hideFooter(true);
   } else {
