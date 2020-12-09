@@ -39,4 +39,18 @@ function createPlayers() {
 }
 
 
+// exit knap i spillet (maja)
+
+function exit() {
+    let page = (confirm("Er du sikker på, at du vil afslutte spillet?")); 
+      if (page) {
+          window.location.hash = 'home';
+    } else {
+        window.history.go('#onboard1');
+        
+    }
+    
+  }
+
+
 
