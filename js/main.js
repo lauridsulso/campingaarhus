@@ -91,17 +91,14 @@ function getPlayers() {
             let game = doc.data();
             game.id = doc.id;
             console.log(game);
-            
-            if (data.players === '0') {
-                game.push(data.players);
-            }
-            
+            game.push(games);
             // gør noget med game...
         });
+        appendPlayers(games);
     });
 }
 // append spillere til DOM
-function appendPlayers() {
+function appendPlayers(game) {
     let htmlTemplate = "";
     for (let user of users) {
         htmlTemplate += /*html*/`
