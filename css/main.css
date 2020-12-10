@@ -535,6 +535,8 @@ h3 {
 
 .nyp {
     text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 /* ---------- footer styling (pernille) ---------- */
@@ -573,11 +575,15 @@ h3 {
 
 .telt-billede {
     width: 115%;
+
+
 }
 
 .kiosk-billede {
     width: 115%;
     margin-right: 0;
+
+
 }
 
 .footer-grid-item-2>p {

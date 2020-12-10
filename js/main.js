@@ -116,3 +116,10 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// Gå tilbage til tidligere side 
+// Med inspiration fra https://www.w3schools.com/jsref/met_his_back.asp
+
+function goBack() {
+  window.history.back();
+}
