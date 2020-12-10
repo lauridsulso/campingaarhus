@@ -89,13 +89,13 @@ function createPlayersHoles() {
 
 //POPUP boks til scoreboard
 // Get the modal
-var modal = document.getElementById("scoreboard-Modal");
+let modal = document.getElementById("scoreboard-Modal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("scoreboard-knap");
+let btn = document.getElementById("scoreboard-knap");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
