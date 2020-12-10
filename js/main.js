@@ -84,9 +84,9 @@ function createGame() {
 function createPlayersHoles() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);
     for (let i = 0; i <= userInput - 1; i++) {
-        document.getElementById("her").innerHTML += "<input placeholder='Spillernavn' type='text' />"
+        document.getElementById("indtast-slag").innerHTML += "<input placeholder='indtast slag' type='text' />"
     }
-    navigateTo("indtastjeresnavne")
+    navigateTo("hul1")
 }
 
 
