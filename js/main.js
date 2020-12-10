@@ -100,7 +100,7 @@ function getPlayers() {
         });
     });
 }
-
+// append spillere til DOM
 function appendPlayers() {
     let htmlTemplate = "";
     for (let user of users) {
