@@ -26,6 +26,7 @@ function hidemenu() {
     document.querySelector("#menuButton").checked = false;
 }
 
+// SCOREKORT STARTER HER
 
 
 // antal spillere (maja, laurids, pernille, tine)
