@@ -340,13 +340,11 @@ div.burger {
 
 .golfben {
     width: 100%;
-
-    top: 0;
 }
 
 .golfben2 {
     width: 100%;
-    left: 45px;
+    padding-left: 15px;
 }
 
 #onboardtekst {
