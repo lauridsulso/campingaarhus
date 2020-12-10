@@ -33,7 +33,7 @@ function hidemenu() {
 function createPlayers() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);
     for (let i = 0; i <= userInput - 1; i++) {
-        document.getElementById("her").innerHTML += "<input placeholder='Spillernavn' type='text' />"
+        document.getElementById("indtast-navn").innerHTML += "<input placeholder='Spillernavn' type='text' />"
     }
     navigateTo("indtastjeresnavne")
 }
@@ -55,7 +55,7 @@ function exit() {
   
 function createGame() {
     //få spillernes navne fra input
-    let userInputs = document.querySelectorAll("#her input");
+    let userInputs = document.querySelectorAll("#indtast-navn input");
 
     //opret array med spiller objects 
     let newPlayers = [];
