@@ -84,6 +84,39 @@ function createPlayersHoles() {
 }
 
 
+// træk data fra firebase (rasmus) 
+function getPlayers() {
+    _gamesRef.onSnapshot(data => {
+        data.forEach(doc => {
+            let game = doc.data();
+            game.id = doc.id;
+            console.log(game);
+            
+            if (data.players === '0') {
+                game.push(data.players);
+            }
+            
+            // gør noget med game...
+        });
+    });
+}
+
+function appendPlayers() {
+    let htmlTemplate = "";
+    for (let user of users) {
+        htmlTemplate += /*html*/`
+        <p>${user.name}</p>
+        `;
+    }
+    document.querySelector('#test').innerHTML = htmlTemplate;
+}
+
+
+getPlayers();
+
+
+
+
 
 
 
@@ -113,3 +146,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+
