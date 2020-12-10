@@ -464,6 +464,20 @@ input {
     margin-left: 40px;
 }
 
+/*HUL 1*/
+#scoreboardUl{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+    
+}
+
+#scoreboardknap{
+    width: 18vw;
+}
+
 /* ---------- tillykke siden (tine) ---------- */
 .vinder_container {
     display: grid;
