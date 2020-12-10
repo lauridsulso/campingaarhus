@@ -73,6 +73,8 @@ function createGame() {
         players: newPlayers
     };
     console.log(newGame);
+
+    _gamesRef.add(newGame);
 }
 
 

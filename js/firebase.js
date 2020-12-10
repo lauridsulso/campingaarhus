@@ -1,24 +1,3 @@
-
-//intialize firebase 
-firebase.initializeApp.(firebaseConfig);
-const _db = firebase.firestore();
-const _gamesRef = _db.collection("games");
-
-
-
-
-
-
-
-
-
-
-
-
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-
-
 // Your web app's Firebase configuration
 let firebaseConfig = {
   apiKey: "AIzaSyDZnVlneuJHUs8AwH4FajXXViKvVsvTFQ4",
@@ -28,9 +7,8 @@ let firebaseConfig = {
   messagingSenderId: "251319843186",
   appId: "1:251319843186:web:ed3d77423d223055bd85eb"
 };
-// Initialize Firebase
+
+//intialize firebase 
 firebase.initializeApp(firebaseConfig);
-
-
-firestore()
-export const postRef = db.collection('games');
+const _db = firebase.firestore();
+const _gamesRef = _db.collection("games");
