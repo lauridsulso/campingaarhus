@@ -87,7 +87,10 @@ function createPlayersHoles() {
 
 
 
-//POPUP boks til scoreboard
+//POPUP boks til scoreboard (pernille)
+/* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+*/
+
 // Get the modal
 var modal = document.getElementById("scoreboard-Modal");
 
