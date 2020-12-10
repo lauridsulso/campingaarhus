@@ -79,3 +79,16 @@ function createGame() {
 
 
 
+// antal navne ved hul (maja, laurids, pernille, tine)
+
+function createPlayersHoles() {
+    let userInput = parseInt(document.getElementById("numberofplayers").value);
+    for (let i = 0; i <= userInput - 1; i++) {
+        document.getElementById("her").innerHTML += "<input placeholder='Spillernavn' type='text' />"
+    }
+    navigateTo("indtastjeresnavne")
+}
+
+
+
+
