@@ -340,13 +340,11 @@ div.burger {
 
 .golfben {
     width: 100%;
-
-    top: 0;
 }
 
 .golfben2 {
     width: 100%;
-    left: 45px;
+    padding-left: 15px;
 }
 
 #onboardtekst {
@@ -466,17 +464,17 @@ input {
 }
 
 /*HUL 1*/
-#scoreboardUl{
+#scoreboardUl {
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
     font-size: 0.9em;
     text-align: center;
     margin-right: 10vw;
-    
+
 }
 
-#hulH2{
+#hulH2 {
     text-align: center;
     margin: 0;
     margin-top: 13vw;
@@ -535,6 +533,8 @@ h3 {
 
 .nyp {
     text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 /* ---------- footer styling (pernille) ---------- */
@@ -573,11 +573,15 @@ h3 {
 
 .telt-billede {
     width: 115%;
+
+
 }
 
 .kiosk-billede {
     width: 115%;
     margin-right: 0;
+
+
 }
 
 .footer-grid-item-2>p {
@@ -613,6 +617,9 @@ h3 {
 }
 
 /* POPUP BOKS TIL SCOREBOARD (pernille)*/
+/* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+*/
+
 
 .modal {
     display: none;
@@ -664,7 +671,7 @@ h3 {
 
 }
 
-#scoreboard-knap{
+#scoreboard-knap {
     width: 18vw;
     height: 9vw;
 }

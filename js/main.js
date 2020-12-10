@@ -120,7 +120,10 @@ getPlayers();
 
 
 
-//POPUP boks til scoreboard
+//POPUP boks til scoreboard (pernille)
+/* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+*/
+
 // Get the modal
 let modal = document.getElementById("scoreboard-Modal");
 
@@ -147,5 +150,9 @@ window.onclick = function(event) {
   }
 }
 
+// Gå tilbage til tidligere side 
+// Med inspiration fra https://www.w3schools.com/jsref/met_his_back.asp
 
-
+function goBack() {
+  window.history.back();
+}
