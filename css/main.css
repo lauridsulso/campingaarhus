@@ -471,11 +471,13 @@ input {
     font-weight: bold;
     font-size: 0.9em;
     text-align: center;
+    margin-right: 10vw;
     
 }
 
 #scoreboardknap{
     width: 18vw;
+    height: 9vw;
 }
 
 /* ---------- tillykke siden (tine) ---------- */
