@@ -246,9 +246,10 @@
     <img src="img/campingvogn.png" alt="campingvogn" width="35%">
     <h2 class="antal">indtast jeres navne</h2><br><br>
     <div id="indtast-navn"></div>
-    <button class="plus"><img src="img/plus.svg" alt="plus">   tilføj spiller</button>
+    <button class="plus"><img src="img/plus.svg" alt="plus"> tilføj spiller</button>
 
-    <a href="#hul1"> <input class="create" type="button" name="btnInput" value="sæt igang" onclick="createGame();createPlayersHoles();"/></a>
+    <a href="#hul1"> <input class="create" type="button" name="btnInput" value="sæt igang"
+        onclick="createGame();createPlayersHoles();" /></a>
     <a class="links" href="#antalspillere">
       <p class="nyp">tilbage</p>
     </a>
@@ -258,10 +259,13 @@
 
   <!-- hul 1 -->
   <section id="hul1" class="page">
-
+    <list>1. Laurids</list>
+    <list>2. Laurids</list>
+    <list>3. Laurids</list>
+    <list><a href="#scoreboard"><button>score</button></a></list>
     <h2 class="antal">hul 1</h2><br><br>
     <div id="indtast-slag"></div>
-    
+
     <a href="#hul1"><button class="onboardknap">næste hul</button></a>
   </section>
 
@@ -319,16 +323,16 @@
   <!-- SPA functionality  -->
   <script src="js/spa.js"></script>
 
- <!-- firebase-->
- <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
- <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+  <!-- firebase-->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
 
   <!--firebase js file-->
   <script src="js/firebase.js"></script>
   <!-- main js file -->
   <script src="js/main.js"></script>
 
- 
+
 
 
 
