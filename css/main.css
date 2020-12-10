@@ -475,6 +475,11 @@ input {
     
 }
 
+#hulH2{
+    text-align: center;
+    margin: 0;
+}
+
 #scoreboardknap{
     width: 18vw;
     height: 9vw;
