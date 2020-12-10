@@ -466,25 +466,22 @@ input {
 }
 
 /*HUL 1*/
-#scoreboardUl {
+#scoreboardUl{
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
     font-size: 0.9em;
     text-align: center;
     margin-right: 10vw;
+    
 }
 
-#hulH2 {
+#hulH2{
     text-align: center;
     margin: 0;
     margin-top: 13vw;
 }
 
-#scoreboardknap {
-    width: 18vw;
-    height: 9vw;
-}
 
 /* ---------- tillykke siden (tine) ---------- */
 .vinder_container {
@@ -674,4 +671,9 @@ h3 {
     margin: 0 auto;
     display: block;
 
+}
+
+#scoreboard-knap{
+    width: 18vw;
+    height: 9vw;
 }
