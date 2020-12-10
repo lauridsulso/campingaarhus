@@ -78,7 +78,6 @@ function createGame() {
 }
 
 
-
 // antal bokse ved hul 1, udfra hvor mange spillere de er (maja, laurids, pernille, tine)
 
 function createPlayersHoles() {
@@ -91,49 +90,3 @@ function createPlayersHoles() {
 
 
 
-
-// ========== GLOBAL VARIABLES ========== //
-const _dataRef = _db.collection("carbonData");
-let _carbonData;
-
-// 1: data from firebase
-// listen for changes on _dataRef
-_dataRef.orderBy("quarter").onSnapshot(snapshotData => {
-    _carbonData = []; // reset _carbonData
-    snapshotData.forEach(doc => { // loop through snapshotData - like for of loop
-        let data = doc.data(); // save the data in a variable
-        data.id = doc.id; // add the id to the data variable
-        _carbonData.push(data); // push the data object to the global array _carbonData
-    });
-    console.log(_carbonData);
-    //call appendMilkProduction with _carbonData as function argument
-    carbonFootprint();
-
-});
-
-// MILKPRODUCTION //
-
-// 2: preparing the data carbonFootprint
-function prepareMilkProductionData(carbonData) {
-    let quarters = [];
-    let yourCarbon = [];
-    let nationalCarbon = [];
-    carbonData.forEach(data => {
-        if (data.dataType === 'yourData') { // condition testing whether the dataType is 'yourData' og 'nationalData'
-            yourCarbon.push(data.carbonFootprint);
-            quarters.push(data.quarter);
-        } else if (data.dataType === 'nationalData') {
-            nationalCarbon.push(data.carbonFootprint);
-        }
-    });
-    return {
-        quarters,
-        yourCarbon,
-        nationalCarbon
-    }
-}
-
-//3: appending the chart
-function appendMilkProduction(carbonData) {
-    let data = prepareMilkProductionData(carbonData);
-    console.log(data);
