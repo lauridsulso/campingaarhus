@@ -1,3 +1,20 @@
+
+//intialize firebase 
+firebase.initializeApp.(firebaseConfig);
+const _db = firebase.firestore();
+const _gamesRef = _db.collection("games");
+
+
+
+
+
+
+
+
+
+
+
+
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
