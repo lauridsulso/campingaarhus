@@ -181,7 +181,7 @@
   <!-- scorekort -->
   <!-- onboarding 1 (Laurids) -->
   <section id="onboard1" class="page">
-    <img class="golfben" src="img/ben.png" alt="">
+    <img class="golfben" src="img/ben.png" alt="llustration af mand som spiller minigolf">
     <h2 class="onboardh2">velkommen til scorekortet</h2>
     <p class="tekst onboardtekst">Her indtaster du spillernes point og kan løbende se hvem der ligger i toppen - og
       hvem af jer der skal
@@ -203,7 +203,7 @@
 
   <!-- onboarding 2 (Laurids) -->
   <section id="onboard2" class="page">
-    <img class="golfben2" src="img/golfben.png" alt="">
+    <img class="golfben2" src="img/golfben.png" alt="llustration af mand som spiller minigolf">
     <h2 class="onboardh2">hovedregning er so last year</h2>
     <p class="tekst onboardtekst">Er du også træt af at lægge jeres point sammen i hovedet? Når du bruger vores
       digitale scorekort, lægger vi pointene
@@ -236,6 +236,9 @@
 
     </form>
     <input class="create" type="button" name="btnInput" value="næste" onclick="createPlayers()" />
+    <a class="links exit" href="#onboard2">
+      <p>tilbage</p>
+    </a>
     <a class="links exit" href="#home">
       <p>exit</p>
     </a>
@@ -253,17 +256,22 @@
     <a class="links" href="#antalspillere">
       <p class="nyp">tilbage</p>
     </a>
-
+<a class="links exit" href="#home">
+  <p>exit</p>
+</a>
   </section>
 
 
   <!-- hul 1 -->
   <section id="hul1" class="page">
-    <list>1. Laurids</list>
-    <list>2. Laurids</list>
-    <list>3. Laurids</list>
-    <list><button id="scoreboard-knap">score</button></list>
-    <h2 class="antal">hul 1</h2><br><br>
+    <ul id="scoreboardUl">
+  <list>1. Pernille <br> 7 slag</list>
+      <list>2. Tine <br> 11 slag</list>
+      <list>3. Maja <br> 13 slag</list>
+   
+    <list>
+         <button id="scoreboard-knap">score</button></list>   </ul>
+    <h2 class="antal" id="hulH2">hul 1</h2><br><br>
     <div id="indtast-slag"></div>
 
     <a href="#hul1"><button class="onboardknap">næste hul</button></a>
@@ -281,6 +289,9 @@
 
 </div>
 
+
+
+    
 
 
 

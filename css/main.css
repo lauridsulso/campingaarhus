@@ -367,6 +367,7 @@ div.burger {
     display: flex;
     justify-content: center;
     margin-bottom: 4vw;
+    margin-top: 15vw;
 }
 
 .skipknap {
@@ -416,7 +417,7 @@ div.burger {
     padding-right: 40px;
     width: 50%;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 
@@ -471,11 +472,18 @@ input {
     font-weight: bold;
     font-size: 0.9em;
     text-align: center;
+    margin-right: 10vw;
+}
 
+#hulH2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 13vw;
 }
 
 #scoreboardknap {
     width: 18vw;
+    height: 9vw;
 }
 
 /* ---------- tillykke siden (tine) ---------- */
