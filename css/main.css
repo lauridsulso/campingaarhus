@@ -115,7 +115,7 @@ font-style: normal;
 }
 
 #forsidescorekort {
-    width: 45vw;
+    width: 40vw;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -463,6 +463,22 @@ input {
     box-shadow: 2.5px 2.5px;
     margin-bottom: 70px;
     margin-left: 40px;
+}
+
+/*HUL 1*/
+#scoreboardUl{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+    margin-right: 10vw;
+    
+}
+
+#scoreboardknap{
+    width: 18vw;
+    height: 9vw;
 }
 
 /* ---------- tillykke siden (tine) ---------- */
