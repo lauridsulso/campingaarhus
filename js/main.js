@@ -65,7 +65,7 @@ function generatePlayers() {
     createGame(newPlayers);
 }
 
-function createGame() {
+function createGame(newPlayers) {
     let newGame = {
         numberOfPlayers: newPlayers.length,
         players: newPlayers
@@ -79,6 +79,16 @@ function createGame() {
         })
 }
 
+function createPlayersHoles() {
+    for (let player of _currentGame.players) {
+        document.getElementById("indtast-slag").innerHTML += `
+        <label>${player.name}</label>
+        <input placeholder='antal slag' type='number'/>
+        `;
+    }
+    navigateTo("hul1")
+}
+
 
 //opret array med spiller objects 
 let newPlayers = [];
@@ -89,15 +99,7 @@ for (const userInput of userInputs) {
     }
     newPlayers.push(newPlayer);
 }
-function createPlayersHoles() {
-    for (let player of _currentGame.players) {
-        document.getElementById("indtast-slag").innerHTML += `
-        <label>${player.name}</label>
-        <input placeholder='antal slag' type='number'/>
-        `;
-    }
-    navigateTo("hul1")
-}
+
 
 //opret nyt spil object
 /* let newGame = {
