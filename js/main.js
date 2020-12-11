@@ -82,9 +82,9 @@ function createGame(newPlayers) {
 function createPlayersHoles() {
     for (let player of _currentGame.players) {
         document.getElementById("indtast-slag").innerHTML += `
-        <div class="playerName">
-            <label>${player.name}</label>
-            <input placeholder='antal slag' type='number'/>
+        <div class="container">
+            <label class="name">${player.name}</label>
+            <input class="slag" placeholder='antal slag' type='number'/>
         </div>
         `;
     }
