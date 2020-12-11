@@ -31,9 +31,8 @@ function exit() {
     if (page) {
         window.location.hash = 'home';
     } else {
-        window.history.go('#onboard1');
+        window.history.go(0);
     }
-
 }
 
 // SCOREKORT STARTER HER
