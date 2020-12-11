@@ -1,4 +1,4 @@
-// Your web app's Firebase configuration
+// Your web app's Firebase configuration (tine, maja, laurids og pernille)
 let firebaseConfig = {
   apiKey: "AIzaSyDZnVlneuJHUs8AwH4FajXXViKvVsvTFQ4",
   authDomain: "campingaarhus-73290.firebaseapp.com",
@@ -8,7 +8,7 @@ let firebaseConfig = {
   appId: "1:251319843186:web:ed3d77423d223055bd85eb"
 };
 
-//intialize firebase 
+//intialize firebase (tine, maja, laurids og pernille)
 firebase.initializeApp(firebaseConfig);
 const _db = firebase.firestore();
 const _gamesRef = _db.collection("games");

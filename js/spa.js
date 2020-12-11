@@ -1,5 +1,5 @@
 "use strict";
-
+// spa template fra Rasmus
 // hide all pages
 function hideAllPages() {
   let pages = document.querySelectorAll(".page");
@@ -52,6 +52,8 @@ function pageChange() {
 }
 pageChange(); // called by default when the app is loaded for the first time
 
+
+
 // Maja og Pernille
 function hideHeader(hide) {
   let header = document.querySelector('.header');
@@ -62,6 +64,8 @@ function hideHeader(hide) {
   }
 }
 
+
+
 // Tine og Maja
 function hideFooter(hide) {
   let footer = document.querySelector('.footer');
@@ -71,5 +75,3 @@ function hideFooter(hide) {
     footer.classList.remove("hide");
   }
 }
-
-// slut her
