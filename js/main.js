@@ -44,6 +44,10 @@ function createPlayers() {
     }
     navigateTo("indtastjeresnavne")
 }
+
+
+
+
 let _currentGame;
 
 
