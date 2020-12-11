@@ -471,7 +471,10 @@ input {
     font-size: 0.9em;
     text-align: center;
     margin-right: 10vw;
+}
 
+.golf-green {
+    width: 8%;
 }
 
 .hul1knap {
@@ -488,8 +491,8 @@ input {
 .container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:auto auto;
-   
+    grid-template-rows: auto auto;
+
 }
 
 .name {
