@@ -84,6 +84,18 @@ function createPlayersHoles() {
 }
 
 
+// træk data fra firebase (rasmus) 
+function getPlayers() {
+    _gamesRef.onSnapshot(data => {
+        data.forEach(doc => {
+            let game = doc.data();
+            game.id = doc.id;
+            console.log(game);
+            // gør noget med game...
+        });
+    });
+}
+
 
 
 
