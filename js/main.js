@@ -47,13 +47,11 @@ function createPlayers() {
     navigateTo("indtastjeresnavne")
 }
 
+let _currentGame;
 
-
-function createGame() {
+function generatePlayers() {
     //få spillernes navne fra input
     let userInputs = document.querySelectorAll("#indtast-navn input");
-
-    //opret array med spiller objects 
     let newPlayers = [];
     for (const userInput of userInputs) {
         console.log(userInput.value);
@@ -62,19 +60,56 @@ function createGame() {
         }
         newPlayers.push(newPlayer);
     }
+    createGame(newPlayers);
+}
 
-    //opret nyt spil object
+function createGame() {
     let newGame = {
         numberOfPlayers: newPlayers.length,
         players: newPlayers
     };
-    console.log(newGame);
-
-    _gamesRef.add(newGame);
+    _gamesRef.add(newGame)
+        .then(doc => {
+            _currentGame = newGame;
+            _currentGame.id = doc.id;
+            console.log(_currentGame);
+            createPlayersHoles();
+        })
 }
 
 
+//opret array med spiller objects 
+let newPlayers = [];
+for (const userInput of userInputs) {
+    console.log(userInput.value);
+    let newPlayer = {
+        name: userInput.value
+    }
+    newPlayers.push(newPlayer);
+}
+function createPlayersHoles() {
+    for (let player of _currentGame.players) {
+        document.getElementById("indtast-slag").innerHTML += `
+        <label>${player.name}</label>
+        <input placeholder='antal slag' type='number'/>
+        `;
+    }
+    navigateTo("hul1")
+}
+
+//opret nyt spil object
+/* let newGame = {
+    numberOfPlayers: newPlayers.length,
+    players: newPlayers
+};
+console.log(newGame);
+
+_gamesRef.add(newGame); */
+
+
+
 // antal bokse ved hul 1, udfra hvor mange spillere de er (maja, laurids, pernille, tine)
+/*
 function createPlayersHoles() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);
     for (let i = 0; i <= userInput - 1; i++) {
@@ -82,7 +117,7 @@ function createPlayersHoles() {
     }
     navigateTo("hul1")
 }
-
+*/
 
 // træk data fra firebase (rasmus) 
 function getPlayers() {
@@ -113,25 +148,25 @@ let btn = document.getElementById("scoreboard-knap");
 let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
+btn.onclick = function () {
+    modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+span.onclick = function () {
+    modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 
 // Gå tilbage til tidligere side 
 // Med inspiration fra https://www.w3schools.com/jsref/met_his_back.asp
 
 function goBack() {
-  window.history.back();
+    window.history.back();
 }
