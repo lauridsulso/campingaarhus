@@ -42,7 +42,7 @@ function exit() {
 function createPlayers() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);
     for (let i = 0; i <= userInput - 1; i++) {
-        document.getElementById("indtast-navn").innerHTML += "<input placeholder='Spillernavn' type='text' />"
+        document.getElementById("indtast-navn").innerHTML += "<input placeholder='spillernavn' type='text' />"
     }
     navigateTo("indtastjeresnavne")
 }

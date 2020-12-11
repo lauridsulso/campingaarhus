@@ -480,6 +480,10 @@ input {
     margin-top: 13vw;
 }
 
+.golf-green {
+    width: 8%;
+}
+
 
 /* ---------- tillykke siden (tine) ---------- */
 .vinder_container {
