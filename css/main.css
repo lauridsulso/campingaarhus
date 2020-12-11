@@ -484,6 +484,12 @@ input {
     width: 8%;
 }
 
+.playerName {
+    font-weight: 800;
+    font-size: 17pt;
+}
+
+
 
 /* ---------- tillykke siden (tine) ---------- */
 .vinder_container {
