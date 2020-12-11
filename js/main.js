@@ -94,7 +94,6 @@ function getPlayers() {
             game.push(data.games);
             // gør noget med game...
         });
-        appendPlayers(game);
     });
 }
 // append spillere til DOM
@@ -107,8 +106,6 @@ function appendPlayers() {
     }
     document.querySelector('#test').innerHTML = htmlTemplate;
 }
-
-
 getPlayers();
 
 
