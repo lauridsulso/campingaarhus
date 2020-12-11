@@ -91,45 +91,6 @@ function createPlayersHoles() {
 }
 
 
-//opret array med spiller objects 
-/*
-let newPlayers = [];
-for (const userInput of userInputs) {
-    console.log(userInput.value);
-    let newPlayer = {
-        name: userInput.value
-    }
-    newPlayers.push(newPlayer);
-}
-*/ 
-
-
-//opret nyt spil object
-/* let newGame = {
-    numberOfPlayers: newPlayers.length,
-    players: newPlayers
-};
-console.log(newGame);
-
-_gamesRef.add(newGame); */
-
-
-
-// antal bokse ved hul 1, udfra hvor mange spillere de er (maja, laurids, pernille, tine)
-/*
-function createPlayersHoles() {
-    let userInput = parseInt(document.getElementById("numberofplayers").value);
-    for (let i = 0; i <= userInput - 1; i++) {
-        document.getElementById("indtast-slag").innerHTML += "<input placeholder='antal slag' type='text' />"
-    }
-    navigateTo("hul1")
-}
-*/
-
-
-
-
-
 //POPUP boks til scoreboard (pernille)
 /* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 */
