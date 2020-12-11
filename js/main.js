@@ -31,9 +31,8 @@ function exit() {
     if (page) {
         window.location.hash = 'home';
     } else {
-        window.history.go('#onboard1');
+        window.history.go(0);
     }
-
 }
 
 // SCOREKORT STARTER HER
@@ -122,7 +121,7 @@ window.onclick = function (event) {
     }
 }
 
-// Gå tilbage til tidligere side 
+// Gå tilbage til tidligere side (pernille)
 // Med inspiration fra https://www.w3schools.com/jsref/met_his_back.asp
 
 function goBack() {

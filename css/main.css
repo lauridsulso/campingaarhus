@@ -608,7 +608,7 @@ h3 {
 
 .kiosk-billede {
     width: 115%;
-    margin-right: 0;
+    float: right;
 
 
 }
