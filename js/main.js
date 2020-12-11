@@ -89,6 +89,7 @@ function createPlayersHoles() {
 
 
 //opret array med spiller objects 
+/*
 let newPlayers = [];
 for (const userInput of userInputs) {
     console.log(userInput.value);
@@ -97,6 +98,7 @@ for (const userInput of userInputs) {
     }
     newPlayers.push(newPlayer);
 }
+*/ 
 
 
 //opret nyt spil object
