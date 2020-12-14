@@ -51,7 +51,7 @@ function createPlayers() {
 let _currentGame;
 
 function generatePlayers() {
-    //få spillernes navne fra input
+    //få spillernes navne fra input 
     let userInputs = document.querySelectorAll("#indtast-navn input");
     let newPlayers = [];
     for (const userInput of userInputs) {
