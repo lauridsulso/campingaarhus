@@ -1,28 +1,21 @@
-/* ---------- root variables ---------- */
-:root {
-    --green: rgb(38, 76, 89);
-    --light-green: rgb(172, 198, 201);
-    --light-grey: #f1f1f4;
-    --text-color-light: #f1f1f1;
-    --text-color-dark: #333;
-}
+/* se hvilken font-weight de forskellige typer skal have:
+BLACK
+font-weight: 900;
+font-style: normal;
 
-/* ---------- general styling ---------- */
-html {
-    color: var(--text-color-dark);
-}
+BOLD
+font-weight: 700;
+font-style: normal;
+REGULAR
+font-weight: 400;
+font-style: normal;
+*/
 
 body {
     margin: 0;
     background-color: #97C567;
     font-family: sofia-pro, sans-serif;
-
 }
-
-.hide {
-    display: none;
-}
-
 
 h1 {
     font-size: 2em;
@@ -61,21 +54,12 @@ button {
     margin-bottom: 0;
 }
 
-/* ---------- se hvilken font-weight de forskellige typer skal have:
-BLACK
-font-weight: 900;
-font-style: normal;
+.hide {
+    display: none;
+}
 
-BOLD
-font-weight: 700;
-font-style: normal;
-REGULAR
-font-weight: 400;
-font-style: normal;
----------- */
 
 /* ---------- header styling ---------- */
-
 .campingvogn-billede {
     width: 30%;
 }
@@ -97,7 +81,8 @@ font-style: normal;
     text-align: center;
 }
 
-/* ---------- forside MAJA ---------- */
+
+/* ---------- forside (maja) ---------- */
 #forsidelogo {
     width: 50%;
     margin: 0 auto;
@@ -135,6 +120,7 @@ font-style: normal;
     margin-bottom: 20px;
 }
 
+
 /* ---------- animations ---------- */
 /* fade in */
 @keyframes fadeIn {
@@ -147,7 +133,7 @@ font-style: normal;
     }
 }
 
-/*---------burgermenu (TINE)--------*/
+/*---------burgermenu (tine)--------*/
 body {
     margin: 0;
     padding: 0;
@@ -285,8 +271,8 @@ div.burger {
     z-index: -999;
 }
 
-/*BESTILLING SIDE START---------*/
 
+/*--------- bestilling side (laurids) ---------*/
 #sultenefterburger {
     margin-top: 5vw;
 }
@@ -304,8 +290,7 @@ div.burger {
 }
 
 
-/* ---------- menukort styling (pernille) ---------- */
-
+/* ---------- menukort side (pernille) ---------- */
 #menukort-billede {
     width: 80%;
     margin: 0 auto;
@@ -319,19 +304,17 @@ div.burger {
     display: block;
 }
 
-
 .activeButton {
     background-color: #dd5050;
 }
-
 
 .activeButton>span {
     color: white;
 }
 
-/*scorekort start*/
 
-/*onboarding*/
+/*scorekort start*/
+/*onboarding (laurids)*/
 .onboardh2 {
     margin-top: 45px;
     line-height: 1.2;
@@ -360,7 +343,6 @@ div.burger {
     text-align: center;
 }
 
-
 .skipknapper {
     display: flex;
     justify-content: center;
@@ -375,8 +357,6 @@ div.burger {
     width: 3vw;
     box-shadow: 2.5px 2.5px;
     margin-left: 10px;
-
-
 }
 
 .skipknap2 {
@@ -418,7 +398,6 @@ div.burger {
     margin-bottom: 40px;
 }
 
-
 .number,
 .create {
     border: 2.5px outset black;
@@ -433,8 +412,8 @@ div.burger {
     margin: auto;
 }
 
-/*-------------indtast jeres navne (tine)-------------*/
 
+/*-------------indtast jeres navne (tine)-------------*/
 input {
     border: 2.5px outset black;
     background-color: white;
@@ -463,7 +442,8 @@ input {
     margin-left: 40px;
 }
 
-/*HUL 1*/
+
+/*HUL 1 (laurids)*/
 #scoreboardUl {
     display: flex;
     justify-content: space-evenly;
@@ -487,12 +467,10 @@ input {
     margin-top: 13vw;
 }
 
-
 .container {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-
 }
 
 .name {
@@ -505,9 +483,6 @@ input {
 .slag {
     grid-area: 2/1/3/2;
 }
-
-
-
 
 
 /* ---------- tillykke siden (tine) ---------- */
@@ -566,16 +541,14 @@ h3 {
     text-decoration: underline;
 }
 
+
 /* ---------- footer styling (pernille) ---------- */
-
-
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-
 }
 
 .footer-grid-item-1 {
@@ -586,7 +559,6 @@ h3 {
 .footer-grid-item-2 {
     grid-area: 1 / 1 / 2 / 4;
     margin-top: 5%;
-
 }
 
 .footer-grid-item-3 {
@@ -599,18 +571,13 @@ h3 {
     align-self: end;
 }
 
-
 .telt-billede {
     width: 115%;
-
-
 }
 
 .kiosk-billede {
     width: 115%;
     float: right;
-
-
 }
 
 .footer-grid-item-2>p {
@@ -645,11 +612,9 @@ h3 {
     float: left;
 }
 
+
 /* POPUP BOKS TIL SCOREBOARD (pernille)*/
-/* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
-*/
-
-
+/* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal*/
 .modal {
     display: none;
     position: fixed;
@@ -673,8 +638,6 @@ h3 {
     width: 80%;
     box-shadow: 2.5px 2.5px;
     border: 2.5px outset black;
-
-
 }
 
 /* The Close Button */
@@ -682,8 +645,6 @@ h3 {
     width: 10%;
     position: relative;
     left: 70vw;
-
-
 }
 
 .close:hover,
@@ -697,7 +658,6 @@ h3 {
     width: 100%;
     margin: 0 auto;
     display: block;
-
 }
 
 #scoreboard-knap {

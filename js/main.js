@@ -1,4 +1,4 @@
-//maja og pernille, skjuler madmenu/barmenu
+//skjuler madmenu/barmenu (maja og pernille)
 function madMenu() {
     document.getElementById('forsvind').style.display = "block";
     document.getElementById('menuKort').style.display = "none";
@@ -6,17 +6,14 @@ function madMenu() {
     document.getElementById('madmenu-knap').classList.remove("activeButton");
 }
 
-
-
 function barMenu() {
     document.getElementById('forsvind').style.display = "none";
     document.getElementById('menuKort').style.display = "block";
     document.getElementById('madmenu-knap').classList.add("activeButton");
     document.getElementById('barmenu-knap').classList.remove("activeButton");
-
 }
-
 barMenu();
+
 
 
 //navigationsmenuen (tine)
@@ -25,7 +22,8 @@ function hidemenu() {
 }
 
 
-// exit knap i spillet (maja, tine)
+
+// exit knap i spillet (maja og tine)
 function exit() {
     let page = (confirm("Er du sikker på, at du vil afslutte spillet?"));
     if (page) {
@@ -35,20 +33,24 @@ function exit() {
     }
 }
 
-// SCOREKORT STARTER HER
 
+
+// SCOREKORT STARTER HER
 // antal spillere (maja, laurids, pernille, tine)
 function createPlayers() {
     let userInput = parseInt(document.getElementById("numberofplayers").value);
     for (let i = 0; i <= userInput - 1; i++) {
-        document.getElementById("indtast-navn").innerHTML += "<input placeholder='spillernavn' type='text' />"
+        document.getElementById("indtast-navn").innerHTML += "<input placeholder='spillernavn' type='text'>"
     }
     navigateTo("indtastjeresnavne")
 }
 
 
 
+
 let _currentGame;
+
+
 
 function generatePlayers() {
     //få spillernes navne fra input 
@@ -64,6 +66,8 @@ function generatePlayers() {
     createGame(newPlayers);
 }
 
+
+
 function createGame(newPlayers) {
     let newGame = {
         numberOfPlayers: newPlayers.length,
@@ -78,6 +82,8 @@ function createGame(newPlayers) {
         })
 }
 
+
+
 function createPlayersHoles() {
     for (let player of _currentGame.players) {
         document.getElementById("indtast-slag").innerHTML += `
@@ -91,10 +97,9 @@ function createPlayersHoles() {
 }
 
 
-//POPUP boks til scoreboard (pernille)
-/* Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
-*/
 
+//POPUP boks til scoreboard (pernille)
+// Med inspiration fra https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 // Get the modal
 let modal = document.getElementById("scoreboard-Modal");
 
@@ -123,7 +128,6 @@ window.onclick = function (event) {
 
 // Gå tilbage til tidligere side (pernille)
 // Med inspiration fra https://www.w3schools.com/jsref/met_his_back.asp
-
 function goBack() {
     window.history.back();
 }
